@@ -1,0 +1,218 @@
+2021-02-26 15:29:34,056 DEBUG [northstar::runtime] Creating target/northstar/data
+2021-02-26 15:29:34,056 DEBUG [northstar::runtime] Creating target/northstar/run
+2021-02-26 15:29:34,057 DEBUG [northstar::runtime] Creating target/northstar/logs
+2021-02-26 15:29:34,058 DEBUG [northstar::runtime::keys] Loading key examples/keys/northstar.pub
+2021-02-26 15:29:34,059 INFO  [northstar::runtime::state] Mounting NPKs from target/northstar/repository
+2021-02-26 15:29:34,060 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/capabilities-0.0.1.npk
+2021-02-26 15:29:34,061 DEBUG [northstar::runtime::mount] Mounting NPK with size 393427
+2021-02-26 15:29:34,089 DEBUG [northstar::runtime::mount] Loaded manifest of capabilities:0.0.1
+2021-02-26 15:29:34,089 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/capabilities/0.0.1
+2021-02-26 15:29:34,090 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop1")
+2021-02-26 15:29:34,091 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 389120
+2021-02-26 15:29:34,119 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.030s
+2021-02-26 15:29:34,119 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_capabilities_0.0.1)
+2021-02-26 15:29:34,123 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-5
+2021-02-26 15:29:34,126 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,128 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-5
+2021-02-26 15:29:34,128 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-02-26 15:29:34,128 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-5 to target/northstar/run/capabilities/0.0.1
+2021-02-26 15:29:34,132 DEBUG [northstar::runtime::mount] Mounting took 0.004s
+2021-02-26 15:29:34,134 INFO  [northstar::runtime::mount] Installed capabilities:0.0.1 Mounting: 0.074s
+2021-02-26 15:29:34,137 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris-0.0.1.npk
+2021-02-26 15:29:34,138 DEBUG [northstar::runtime::mount] Mounting NPK with size 430291
+2021-02-26 15:29:34,142 DEBUG [northstar::runtime::mount] Loaded manifest of ferris:0.0.1
+2021-02-26 15:29:34,143 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris/0.0.1
+2021-02-26 15:29:34,143 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop2")
+2021-02-26 15:29:34,143 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 425984
+2021-02-26 15:29:34,183 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.040s
+2021-02-26 15:29:34,183 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_ferris_0.0.1)
+2021-02-26 15:29:34,186 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-6
+2021-02-26 15:29:34,189 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,191 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-6
+2021-02-26 15:29:34,191 DEBUG [northstar::runtime::mount] Verity setup took 0.008s
+2021-02-26 15:29:34,191 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-6 to target/northstar/run/ferris/0.0.1
+2021-02-26 15:29:34,193 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-02-26 15:29:34,194 INFO  [northstar::runtime::mount] Installed ferris:0.0.1 Mounting: 0.057s
+2021-02-26 15:29:34,194 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello_message-0.0.1.npk
+2021-02-26 15:29:34,194 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-02-26 15:29:34,200 DEBUG [northstar::runtime::mount] Loaded manifest of hello_message:0.0.1
+2021-02-26 15:29:34,200 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_message/0.0.1
+2021-02-26 15:29:34,201 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop3")
+2021-02-26 15:29:34,201 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-02-26 15:29:34,239 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-02-26 15:29:34,240 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_hello_message_0.0.1)
+2021-02-26 15:29:34,242 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-7
+2021-02-26 15:29:34,246 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,248 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-7
+2021-02-26 15:29:34,248 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-02-26 15:29:34,248 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-7 to target/northstar/run/hello_message/0.0.1
+2021-02-26 15:29:34,250 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,252 INFO  [northstar::runtime::mount] Installed hello_message:0.0.1 Mounting: 0.057s
+2021-02-26 15:29:34,252 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/resource_hello-0.0.1.npk
+2021-02-26 15:29:34,252 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-02-26 15:29:34,281 DEBUG [northstar::runtime::mount] Loaded manifest of resource_hello:0.0.1
+2021-02-26 15:29:34,281 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/resource_hello/0.0.1
+2021-02-26 15:29:34,282 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop4")
+2021-02-26 15:29:34,282 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-02-26 15:29:34,319 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-02-26 15:29:34,319 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_resource_hello_0.0.1)
+2021-02-26 15:29:34,322 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-8
+2021-02-26 15:29:34,325 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,326 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-8
+2021-02-26 15:29:34,326 DEBUG [northstar::runtime::mount] Verity setup took 0.006s
+2021-02-26 15:29:34,326 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-8 to target/northstar/run/resource_hello/0.0.1
+2021-02-26 15:29:34,327 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,328 INFO  [northstar::runtime::mount] Installed resource_hello:0.0.1 Mounting: 0.076s
+2021-02-26 15:29:34,331 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/cpueater-0.0.1.npk
+2021-02-26 15:29:34,331 DEBUG [northstar::runtime::mount] Mounting NPK with size 442579
+2021-02-26 15:29:34,361 DEBUG [northstar::runtime::mount] Loaded manifest of cpueater:0.0.1
+2021-02-26 15:29:34,361 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/cpueater/0.0.1
+2021-02-26 15:29:34,362 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop5")
+2021-02-26 15:29:34,362 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 438272
+2021-02-26 15:29:34,391 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.030s
+2021-02-26 15:29:34,391 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_cpueater_0.0.1)
+2021-02-26 15:29:34,394 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-9
+2021-02-26 15:29:34,397 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,399 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-9
+2021-02-26 15:29:34,399 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-02-26 15:29:34,399 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-9 to target/northstar/run/cpueater/0.0.1
+2021-02-26 15:29:34,400 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-02-26 15:29:34,402 INFO  [northstar::runtime::mount] Installed cpueater:0.0.1 Mounting: 0.071s
+2021-02-26 15:29:34,403 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/crashing-0.0.1.npk
+2021-02-26 15:29:34,403 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-02-26 15:29:34,409 DEBUG [northstar::runtime::mount] Loaded manifest of crashing:0.0.1
+2021-02-26 15:29:34,409 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/crashing/0.0.1
+2021-02-26 15:29:34,409 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop6")
+2021-02-26 15:29:34,409 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-02-26 15:29:34,451 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.042s
+2021-02-26 15:29:34,451 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_crashing_0.0.1)
+2021-02-26 15:29:34,453 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-10
+2021-02-26 15:29:34,456 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,458 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-10
+2021-02-26 15:29:34,458 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-02-26 15:29:34,458 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-10 to target/northstar/run/crashing/0.0.1
+2021-02-26 15:29:34,459 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,461 INFO  [northstar::runtime::mount] Installed crashing:0.0.1 Mounting: 0.058s
+2021-02-26 15:29:34,461 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello-0.0.1.npk
+2021-02-26 15:29:34,461 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-02-26 15:29:34,468 DEBUG [northstar::runtime::mount] Loaded manifest of hello:0.0.1
+2021-02-26 15:29:34,468 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello/0.0.1
+2021-02-26 15:29:34,468 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop7")
+2021-02-26 15:29:34,468 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-02-26 15:29:34,503 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.035s
+2021-02-26 15:29:34,503 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_hello_0.0.1)
+2021-02-26 15:29:34,508 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-11
+2021-02-26 15:29:34,510 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,513 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-11
+2021-02-26 15:29:34,513 DEBUG [northstar::runtime::mount] Verity setup took 0.010s
+2021-02-26 15:29:34,513 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-11 to target/northstar/run/hello/0.0.1
+2021-02-26 15:29:34,515 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-02-26 15:29:34,517 INFO  [northstar::runtime::mount] Installed hello:0.0.1 Mounting: 0.056s
+2021-02-26 15:29:34,517 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris_says_hello-0.0.1.npk
+2021-02-26 15:29:34,517 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-02-26 15:29:34,535 DEBUG [northstar::runtime::mount] Loaded manifest of ferris_says_hello:0.0.1
+2021-02-26 15:29:34,535 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris_says_hello/0.0.1
+2021-02-26 15:29:34,535 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop8")
+2021-02-26 15:29:34,535 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-02-26 15:29:34,576 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.040s
+2021-02-26 15:29:34,576 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_ferris_says_hello_0.0.1)
+2021-02-26 15:29:34,580 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-12
+2021-02-26 15:29:34,584 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,586 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-12
+2021-02-26 15:29:34,586 DEBUG [northstar::runtime::mount] Verity setup took 0.010s
+2021-02-26 15:29:34,586 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-12 to target/northstar/run/ferris_says_hello/0.0.1
+2021-02-26 15:29:34,587 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,588 INFO  [northstar::runtime::mount] Installed ferris_says_hello:0.0.1 Mounting: 0.071s
+2021-02-26 15:29:34,588 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/seccomp-0.0.1.npk
+2021-02-26 15:29:34,588 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-02-26 15:29:34,593 DEBUG [northstar::runtime::mount] Loaded manifest of seccomp:0.0.1
+2021-02-26 15:29:34,593 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/seccomp/0.0.1
+2021-02-26 15:29:34,594 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop9")
+2021-02-26 15:29:34,594 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-02-26 15:29:34,623 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.029s
+2021-02-26 15:29:34,623 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_seccomp_0.0.1)
+2021-02-26 15:29:34,626 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-13
+2021-02-26 15:29:34,629 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,630 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-13
+2021-02-26 15:29:34,631 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-02-26 15:29:34,631 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-13 to target/northstar/run/seccomp/0.0.1
+2021-02-26 15:29:34,634 DEBUG [northstar::runtime::mount] Mounting took 0.004s
+2021-02-26 15:29:34,637 INFO  [northstar::runtime::mount] Installed seccomp:0.0.1 Mounting: 0.049s
+2021-02-26 15:29:34,639 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/datarw-0.0.1.npk
+2021-02-26 15:29:34,641 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-02-26 15:29:34,644 DEBUG [northstar::runtime::mount] Loaded manifest of datarw:0.0.1
+2021-02-26 15:29:34,644 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/datarw/0.0.1
+2021-02-26 15:29:34,645 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop10")
+2021-02-26 15:29:34,645 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-02-26 15:29:34,683 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-02-26 15:29:34,683 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_datarw_0.0.1)
+2021-02-26 15:29:34,686 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-14
+2021-02-26 15:29:34,688 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,690 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-14
+2021-02-26 15:29:34,690 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-02-26 15:29:34,690 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-14 to target/northstar/run/datarw/0.0.1
+2021-02-26 15:29:34,692 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,693 INFO  [northstar::runtime::mount] Installed datarw:0.0.1 Mounting: 0.054s
+2021-02-26 15:29:34,699 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/memeater-0.0.1.npk
+2021-02-26 15:29:34,701 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-02-26 15:29:34,704 DEBUG [northstar::runtime::mount] Loaded manifest of memeater:0.0.1
+2021-02-26 15:29:34,705 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/memeater/0.0.1
+2021-02-26 15:29:34,705 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop11")
+2021-02-26 15:29:34,705 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-02-26 15:29:34,751 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.046s
+2021-02-26 15:29:34,752 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_150089_memeater_0.0.1)
+2021-02-26 15:29:34,754 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-15
+2021-02-26 15:29:34,757 DEBUG [northstar::runtime::mount] Resuming device
+2021-02-26 15:29:34,760 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-15
+2021-02-26 15:29:34,760 DEBUG [northstar::runtime::mount] Verity setup took 0.008s
+2021-02-26 15:29:34,760 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-15 to target/northstar/run/memeater/0.0.1
+2021-02-26 15:29:34,761 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,763 INFO  [northstar::runtime::mount] Installed memeater:0.0.1 Mounting: 0.064s
+2021-02-26 15:29:34,769 INFO  [northstar::runtime::state] Mounting NPKs from /tmp/.tmpVQURLM
+2021-02-26 15:29:34,769 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpVQURLM/hello_world-0.0.1.npk
+2021-02-26 15:29:34,770 DEBUG [northstar::runtime::mount] Mounting NPK with size 8343
+2021-02-26 15:29:34,771 DEBUG [northstar::runtime::mount] Loaded manifest of hello_world:0.0.1
+2021-02-26 15:29:34,771 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_world/0.0.1
+2021-02-26 15:29:34,771 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop12")
+2021-02-26 15:29:34,772 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 4096
+2021-02-26 15:29:34,823 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.052s
+2021-02-26 15:29:34,823 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop12 to target/northstar/run/hello_world/0.0.1
+2021-02-26 15:29:34,824 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-02-26 15:29:34,824 INFO  [northstar::runtime::mount] Installed hello_world:0.0.1 Mounting: 0.055s
+2021-02-26 15:29:34,825 INFO  [northstar::runtime] Mounted 12 containers
+2021-02-26 15:29:34,826 DEBUG [northstar::runtime::console] Starting console on [::1]:4200
+2021-02-26 15:29:44,058 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/capabilities/0.0.1
+2021-02-26 15:29:44,065 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,109 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/capabilities/0.0.1
+2021-02-26 15:29:44,110 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello/0.0.1
+2021-02-26 15:29:44,110 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,154 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello/0.0.1
+2021-02-26 15:29:44,154 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/memeater/0.0.1
+2021-02-26 15:29:44,155 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,193 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/memeater/0.0.1
+2021-02-26 15:29:44,193 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris_says_hello/0.0.1
+2021-02-26 15:29:44,194 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,241 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris_says_hello/0.0.1
+2021-02-26 15:29:44,241 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/datarw/0.0.1
+2021-02-26 15:29:44,242 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,277 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/datarw/0.0.1
+2021-02-26 15:29:44,277 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_world/0.0.1
+2021-02-26 15:29:44,291 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_world/0.0.1
+2021-02-26 15:29:44,292 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/resource_hello/0.0.1
+2021-02-26 15:29:44,292 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,324 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/resource_hello/0.0.1
+2021-02-26 15:29:44,325 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/cpueater/0.0.1
+2021-02-26 15:29:44,325 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,357 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/cpueater/0.0.1
+2021-02-26 15:29:44,357 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/crashing/0.0.1
+2021-02-26 15:29:44,360 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,411 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/crashing/0.0.1
+2021-02-26 15:29:44,412 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/seccomp/0.0.1
+2021-02-26 15:29:44,412 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,450 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/seccomp/0.0.1
+2021-02-26 15:29:44,450 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_message/0.0.1
+2021-02-26 15:29:44,453 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,488 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_message/0.0.1
+2021-02-26 15:29:44,489 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris/0.0.1
+2021-02-26 15:29:44,489 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-02-26 15:29:44,525 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris/0.0.1
