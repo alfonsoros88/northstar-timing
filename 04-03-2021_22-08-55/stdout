@@ -1,0 +1,1569 @@
+2021-03-04 23:09:20,405 DEBUG [northstar::runtime] Creating target/northstar/data
+2021-03-04 23:09:20,405 DEBUG [northstar::runtime] Creating target/northstar/run
+2021-03-04 23:09:20,405 DEBUG [northstar::runtime] Creating target/northstar/logs
+2021-03-04 23:09:20,406 DEBUG [northstar::runtime::keys] Loading key examples/keys/northstar.pub
+2021-03-04 23:09:20,410 INFO  [northstar::runtime::state] Mounting NPKs from /tmp/.tmpLKbQbD
+2021-03-04 23:09:20,411 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpLKbQbD/hello_world-0.0.1.npk
+2021-03-04 23:09:20,411 DEBUG [northstar::runtime::mount] Mounting NPK with size 8343
+2021-03-04 23:09:20,414 DEBUG [northstar::runtime::mount] Loaded manifest of hello_world:0.0.1
+2021-03-04 23:09:20,414 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_world/0.0.1
+2021-03-04 23:09:20,417 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop1")
+2021-03-04 23:09:20,418 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 4096
+2021-03-04 23:09:20,467 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.052s
+2021-03-04 23:09:20,467 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop1 to target/northstar/run/hello_world/0.0.1
+2021-03-04 23:09:20,469 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:20,469 INFO  [northstar::runtime::mount] Installed hello_world:0.0.1 Mounting: 0.057s
+2021-03-04 23:09:20,471 INFO  [northstar::runtime::state] Mounting NPKs from target/northstar/repository
+2021-03-04 23:09:20,471 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/capabilities-0.0.1.npk
+2021-03-04 23:09:20,472 DEBUG [northstar::runtime::mount] Mounting NPK with size 393427
+2021-03-04 23:09:20,499 DEBUG [northstar::runtime::mount] Loaded manifest of capabilities:0.0.1
+2021-03-04 23:09:20,499 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/capabilities/0.0.1
+2021-03-04 23:09:20,499 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop2")
+2021-03-04 23:09:20,503 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 389120
+2021-03-04 23:09:20,543 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.044s
+2021-03-04 23:09:20,543 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_capabilities_0.0.1)
+2021-03-04 23:09:20,546 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-5
+2021-03-04 23:09:20,550 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,552 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-5
+2021-03-04 23:09:20,552 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-03-04 23:09:20,552 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-5 to target/northstar/run/capabilities/0.0.1
+2021-03-04 23:09:20,555 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:20,557 INFO  [northstar::runtime::mount] Installed capabilities:0.0.1 Mounting: 0.085s
+2021-03-04 23:09:20,557 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris-0.0.1.npk
+2021-03-04 23:09:20,557 DEBUG [northstar::runtime::mount] Mounting NPK with size 430291
+2021-03-04 23:09:20,579 DEBUG [northstar::runtime::mount] Loaded manifest of ferris:0.0.1
+2021-03-04 23:09:20,579 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris/0.0.1
+2021-03-04 23:09:20,580 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop3")
+2021-03-04 23:09:20,580 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 425984
+2021-03-04 23:09:20,615 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.036s
+2021-03-04 23:09:20,615 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_ferris_0.0.1)
+2021-03-04 23:09:20,618 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-6
+2021-03-04 23:09:20,620 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,622 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-6
+2021-03-04 23:09:20,622 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-03-04 23:09:20,622 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-6 to target/northstar/run/ferris/0.0.1
+2021-03-04 23:09:20,625 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:20,627 INFO  [northstar::runtime::mount] Installed ferris:0.0.1 Mounting: 0.070s
+2021-03-04 23:09:20,627 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello_message-0.0.1.npk
+2021-03-04 23:09:20,627 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-03-04 23:09:20,633 DEBUG [northstar::runtime::mount] Loaded manifest of hello_message:0.0.1
+2021-03-04 23:09:20,633 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_message/0.0.1
+2021-03-04 23:09:20,634 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop4")
+2021-03-04 23:09:20,634 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-03-04 23:09:20,671 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-04 23:09:20,671 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_hello_message_0.0.1)
+2021-03-04 23:09:20,672 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-7
+2021-03-04 23:09:20,673 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,674 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-7
+2021-03-04 23:09:20,674 DEBUG [northstar::runtime::mount] Verity setup took 0.003s
+2021-03-04 23:09:20,674 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-7 to target/northstar/run/hello_message/0.0.1
+2021-03-04 23:09:20,676 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:20,676 INFO  [northstar::runtime::mount] Installed hello_message:0.0.1 Mounting: 0.049s
+2021-03-04 23:09:20,677 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/resource_hello-0.0.1.npk
+2021-03-04 23:09:20,677 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-03-04 23:09:20,711 DEBUG [northstar::runtime::mount] Loaded manifest of resource_hello:0.0.1
+2021-03-04 23:09:20,711 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/resource_hello/0.0.1
+2021-03-04 23:09:20,712 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop5")
+2021-03-04 23:09:20,712 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-03-04 23:09:20,743 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.031s
+2021-03-04 23:09:20,743 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_resource_hello_0.0.1)
+2021-03-04 23:09:20,746 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-8
+2021-03-04 23:09:20,747 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,749 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-8
+2021-03-04 23:09:20,749 DEBUG [northstar::runtime::mount] Verity setup took 0.006s
+2021-03-04 23:09:20,749 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-8 to target/northstar/run/resource_hello/0.0.1
+2021-03-04 23:09:20,751 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:20,752 INFO  [northstar::runtime::mount] Installed resource_hello:0.0.1 Mounting: 0.075s
+2021-03-04 23:09:20,752 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/cpueater-0.0.1.npk
+2021-03-04 23:09:20,752 DEBUG [northstar::runtime::mount] Mounting NPK with size 442579
+2021-03-04 23:09:20,755 DEBUG [northstar::runtime::mount] Loaded manifest of cpueater:0.0.1
+2021-03-04 23:09:20,755 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/cpueater/0.0.1
+2021-03-04 23:09:20,756 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop6")
+2021-03-04 23:09:20,756 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 438272
+2021-03-04 23:09:20,787 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.031s
+2021-03-04 23:09:20,787 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_cpueater_0.0.1)
+2021-03-04 23:09:20,789 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-9
+2021-03-04 23:09:20,790 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,792 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-9
+2021-03-04 23:09:20,792 DEBUG [northstar::runtime::mount] Verity setup took 0.004s
+2021-03-04 23:09:20,792 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-9 to target/northstar/run/cpueater/0.0.1
+2021-03-04 23:09:20,795 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-04 23:09:20,796 INFO  [northstar::runtime::mount] Installed cpueater:0.0.1 Mounting: 0.044s
+2021-03-04 23:09:20,796 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/crashing-0.0.1.npk
+2021-03-04 23:09:20,796 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-04 23:09:20,801 DEBUG [northstar::runtime::mount] Loaded manifest of crashing:0.0.1
+2021-03-04 23:09:20,801 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/crashing/0.0.1
+2021-03-04 23:09:20,802 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop7")
+2021-03-04 23:09:20,802 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-04 23:09:20,843 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.042s
+2021-03-04 23:09:20,843 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_crashing_0.0.1)
+2021-03-04 23:09:20,847 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-10
+2021-03-04 23:09:20,849 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,851 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-10
+2021-03-04 23:09:20,851 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-03-04 23:09:20,851 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-10 to target/northstar/run/crashing/0.0.1
+2021-03-04 23:09:20,852 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:20,853 INFO  [northstar::runtime::mount] Installed crashing:0.0.1 Mounting: 0.057s
+2021-03-04 23:09:20,854 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello-0.0.1.npk
+2021-03-04 23:09:20,858 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-04 23:09:20,865 DEBUG [northstar::runtime::mount] Loaded manifest of hello:0.0.1
+2021-03-04 23:09:20,865 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello/0.0.1
+2021-03-04 23:09:20,866 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop8")
+2021-03-04 23:09:20,866 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-04 23:09:20,895 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.029s
+2021-03-04 23:09:20,895 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_hello_0.0.1)
+2021-03-04 23:09:20,898 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-11
+2021-03-04 23:09:20,901 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,903 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-11
+2021-03-04 23:09:20,903 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-03-04 23:09:20,903 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-11 to target/northstar/run/hello/0.0.1
+2021-03-04 23:09:20,905 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:20,906 INFO  [northstar::runtime::mount] Installed hello:0.0.1 Mounting: 0.053s
+2021-03-04 23:09:20,907 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris_says_hello-0.0.1.npk
+2021-03-04 23:09:20,907 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-03-04 23:09:20,912 DEBUG [northstar::runtime::mount] Loaded manifest of ferris_says_hello:0.0.1
+2021-03-04 23:09:20,912 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris_says_hello/0.0.1
+2021-03-04 23:09:20,915 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop9")
+2021-03-04 23:09:20,915 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-03-04 23:09:20,955 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.042s
+2021-03-04 23:09:20,956 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_ferris_says_hello_0.0.1)
+2021-03-04 23:09:20,958 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-12
+2021-03-04 23:09:20,962 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:20,963 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-12
+2021-03-04 23:09:20,963 DEBUG [northstar::runtime::mount] Verity setup took 0.008s
+2021-03-04 23:09:20,963 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-12 to target/northstar/run/ferris_says_hello/0.0.1
+2021-03-04 23:09:20,964 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:20,966 INFO  [northstar::runtime::mount] Installed ferris_says_hello:0.0.1 Mounting: 0.059s
+2021-03-04 23:09:20,966 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/seccomp-0.0.1.npk
+2021-03-04 23:09:20,966 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-04 23:09:20,976 DEBUG [northstar::runtime::mount] Loaded manifest of seccomp:0.0.1
+2021-03-04 23:09:20,976 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/seccomp/0.0.1
+2021-03-04 23:09:20,976 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop10")
+2021-03-04 23:09:20,979 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-04 23:09:21,015 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.039s
+2021-03-04 23:09:21,015 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_seccomp_0.0.1)
+2021-03-04 23:09:21,019 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-13
+2021-03-04 23:09:21,021 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:21,024 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-13
+2021-03-04 23:09:21,024 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-03-04 23:09:21,024 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-13 to target/northstar/run/seccomp/0.0.1
+2021-03-04 23:09:21,031 DEBUG [northstar::runtime::mount] Mounting took 0.006s
+2021-03-04 23:09:21,032 INFO  [northstar::runtime::mount] Installed seccomp:0.0.1 Mounting: 0.066s
+2021-03-04 23:09:21,032 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/datarw-0.0.1.npk
+2021-03-04 23:09:21,033 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-03-04 23:09:21,036 DEBUG [northstar::runtime::mount] Loaded manifest of datarw:0.0.1
+2021-03-04 23:09:21,036 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/datarw/0.0.1
+2021-03-04 23:09:21,037 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop11")
+2021-03-04 23:09:21,037 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-03-04 23:09:21,071 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.035s
+2021-03-04 23:09:21,071 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_datarw_0.0.1)
+2021-03-04 23:09:21,075 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-14
+2021-03-04 23:09:21,078 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:21,080 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-14
+2021-03-04 23:09:21,080 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-03-04 23:09:21,080 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-14 to target/northstar/run/datarw/0.0.1
+2021-03-04 23:09:21,082 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-04 23:09:21,083 INFO  [northstar::runtime::mount] Installed datarw:0.0.1 Mounting: 0.051s
+2021-03-04 23:09:21,086 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/memeater-0.0.1.npk
+2021-03-04 23:09:21,086 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-04 23:09:21,104 DEBUG [northstar::runtime::mount] Loaded manifest of memeater:0.0.1
+2021-03-04 23:09:21,104 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/memeater/0.0.1
+2021-03-04 23:09:21,105 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop12")
+2021-03-04 23:09:21,105 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-04 23:09:21,139 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.034s
+2021-03-04 23:09:21,140 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_2832625_memeater_0.0.1)
+2021-03-04 23:09:21,144 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-15
+2021-03-04 23:09:21,145 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-04 23:09:21,146 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-15
+2021-03-04 23:09:21,146 DEBUG [northstar::runtime::mount] Verity setup took 0.006s
+2021-03-04 23:09:21,146 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-15 to target/northstar/run/memeater/0.0.1
+2021-03-04 23:09:21,152 DEBUG [northstar::runtime::mount] Mounting took 0.005s
+2021-03-04 23:09:21,153 INFO  [northstar::runtime::mount] Installed memeater:0.0.1 Mounting: 0.067s
+2021-03-04 23:09:21,154 INFO  [northstar::runtime::state] Mounting NPKs from /tmp/.tmpwgjFWo
+2021-03-04 23:09:21,154 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test06-0.0.1.npk
+2021-03-04 23:09:21,155 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,156 DEBUG [northstar::runtime::mount] Loaded manifest of test06:0.0.1
+2021-03-04 23:09:21,156 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test06/0.0.1
+2021-03-04 23:09:21,156 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop13")
+2021-03-04 23:09:21,157 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,203 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.047s
+2021-03-04 23:09:21,204 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop13 to target/northstar/run/test06/0.0.1
+2021-03-04 23:09:21,205 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:21,205 INFO  [northstar::runtime::mount] Installed test06:0.0.1 Mounting: 0.051s
+2021-03-04 23:09:21,206 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test04-0.0.1.npk
+2021-03-04 23:09:21,206 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,208 DEBUG [northstar::runtime::mount] Loaded manifest of test04:0.0.1
+2021-03-04 23:09:21,208 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test04/0.0.1
+2021-03-04 23:09:21,208 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop14")
+2021-03-04 23:09:21,208 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,251 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.043s
+2021-03-04 23:09:21,251 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop14 to target/northstar/run/test04/0.0.1
+2021-03-04 23:09:21,253 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:21,254 INFO  [northstar::runtime::mount] Installed test04:0.0.1 Mounting: 0.047s
+2021-03-04 23:09:21,254 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test03-0.0.1.npk
+2021-03-04 23:09:21,254 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,255 DEBUG [northstar::runtime::mount] Loaded manifest of test03:0.0.1
+2021-03-04 23:09:21,255 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test03/0.0.1
+2021-03-04 23:09:21,256 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop15")
+2021-03-04 23:09:21,256 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,299 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.043s
+2021-03-04 23:09:21,300 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop15 to target/northstar/run/test03/0.0.1
+2021-03-04 23:09:21,303 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-04 23:09:21,303 INFO  [northstar::runtime::mount] Installed test03:0.0.1 Mounting: 0.049s
+2021-03-04 23:09:21,304 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test05-0.0.1.npk
+2021-03-04 23:09:21,304 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,306 DEBUG [northstar::runtime::mount] Loaded manifest of test05:0.0.1
+2021-03-04 23:09:21,306 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test05/0.0.1
+2021-03-04 23:09:21,307 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop16")
+2021-03-04 23:09:21,307 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,343 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-04 23:09:21,343 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop16 to target/northstar/run/test05/0.0.1
+2021-03-04 23:09:21,346 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-04 23:09:21,346 INFO  [northstar::runtime::mount] Installed test05:0.0.1 Mounting: 0.043s
+2021-03-04 23:09:21,347 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test01-0.0.1.npk
+2021-03-04 23:09:21,347 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,348 DEBUG [northstar::runtime::mount] Loaded manifest of test01:0.0.1
+2021-03-04 23:09:21,348 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test01/0.0.1
+2021-03-04 23:09:21,349 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop17")
+2021-03-04 23:09:21,349 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,387 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-03-04 23:09:21,387 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop17 to target/northstar/run/test01/0.0.1
+2021-03-04 23:09:21,389 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:21,389 INFO  [northstar::runtime::mount] Installed test01:0.0.1 Mounting: 0.042s
+2021-03-04 23:09:21,391 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test07-0.0.1.npk
+2021-03-04 23:09:21,391 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,393 DEBUG [northstar::runtime::mount] Loaded manifest of test07:0.0.1
+2021-03-04 23:09:21,393 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test07/0.0.1
+2021-03-04 23:09:21,394 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop18")
+2021-03-04 23:09:21,398 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,439 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.045s
+2021-03-04 23:09:21,439 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop18 to target/northstar/run/test07/0.0.1
+2021-03-04 23:09:21,441 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:21,441 INFO  [northstar::runtime::mount] Installed test07:0.0.1 Mounting: 0.050s
+2021-03-04 23:09:21,443 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpwgjFWo/test00-0.0.1.npk
+2021-03-04 23:09:21,444 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-04 23:09:21,446 DEBUG [northstar::runtime::mount] Loaded manifest of test00:0.0.1
+2021-03-04 23:09:21,446 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test00/0.0.1
+2021-03-04 23:09:21,448 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop19")
+2021-03-04 23:09:21,452 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-04 23:09:21,499 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.052s
+2021-03-04 23:09:21,499 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop19 to target/northstar/run/test00/0.0.1
+2021-03-04 23:09:21,501 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-04 23:09:21,501 INFO  [northstar::runtime::mount] Installed test00:0.0.1 Mounting: 0.058s
+2021-03-04 23:09:21,502 INFO  [northstar::runtime] Mounted 19 containers
+2021-03-04 23:09:21,503 DEBUG [northstar::runtime::console] Starting console on [::1]:4200
+2021-03-04 23:09:21,503 DEBUG [northstar::runtime::console] Client "[::1]:57900" connected
+2021-03-04 23:09:21,503 INFO  [northstar::runtime::console] [::1]:57900: Connection closed
+2021-03-04 23:09:21,503 INFO  [northstar::runtime::console] Connection to [::1]:57900 closed
+2021-03-04 23:09:21,506 DEBUG [northstar::runtime::console] Client "[::1]:57902" connected
+2021-03-04 23:09:21,507 INFO  [northstar::runtime::state] Starting test00:0.0.1
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test00
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::console] Client "[::1]:57904" connected
+2021-03-04 23:09:21,507 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test00 to 1000:1000
+2021-03-04 23:09:21,508 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test00 on /data
+2021-03-04 23:09:21,508 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,508 DEBUG [northstar::runtime::console] Client "[::1]:57906" connected
+2021-03-04 23:09:21,508 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,509 INFO  [northstar::runtime::state] Started test00:0.0.1
+2021-03-04 23:09:21,509 INFO  [northstar::runtime::state] Starting test01:0.0.1
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::console] Client "[::1]:57908" connected
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test01
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test01 to 1000:1000
+2021-03-04 23:09:21,509 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test01 on /data
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,510 INFO  [northstar::runtime::state] Started test01:0.0.1
+2021-03-04 23:09:21,510 INFO  [northstar::runtime::state] Starting test03:0.0.1
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,510 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test03
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test03 to 1000:1000
+2021-03-04 23:09:21,511 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test03 on /data
+2021-03-04 23:09:21,512 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,512 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,512 INFO  [northstar::runtime::state] Started test03:0.0.1
+2021-03-04 23:09:21,513 INFO  [northstar::runtime::state] Stopping test01:0.0.1
+2021-03-04 23:09:21,515 DEBUG [northstar::runtime::console] Client "[::1]:57914" connected
+2021-03-04 23:09:21,515 DEBUG [northstar::runtime::console] Client "[::1]:57910" connected
+2021-03-04 23:09:21,515 DEBUG [northstar::runtime::console] Client "[::1]:57912" connected
+2021-03-04 23:09:21,531 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:09:21,532 DEBUG [northstar::runtime::process] Process 2833477 exit code is 1
+2021-03-04 23:09:21,533 INFO  [northstar::runtime::state] Stopped test01:0.0.1 Exit(1)
+2021-03-04 23:09:21,533 INFO  [northstar::runtime::state] Starting test04:0.0.1
+2021-03-04 23:09:21,533 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,533 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,533 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:09:21,534 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,534 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test04
+2021-03-04 23:09:21,535 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test04 to 1000:1000
+2021-03-04 23:09:21,535 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test04 on /data
+2021-03-04 23:09:21,535 INFO  [northstar::runtime::console] [::1]:57904: Connection closed
+2021-03-04 23:09:21,535 INFO  [northstar::runtime::console] Connection to [::1]:57904 closed
+2021-03-04 23:09:21,535 DEBUG [northstar::runtime::process] Process 2833475 exit code is 1
+2021-03-04 23:09:21,535 DEBUG [northstar::runtime::console] Client "[::1]:57916" connected
+2021-03-04 23:09:21,536 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,536 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,536 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,537 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,537 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:09:21,538 INFO  [northstar::runtime::state] Started test04:0.0.1
+2021-03-04 23:09:21,538 INFO  [northstar::runtime::state] Stopping test00:0.0.1
+2021-03-04 23:09:21,538 ERROR [northstar::runtime::state] Failed to stop test00: Process: Os("Failed to SIGTERM 2833475", Sys(ESRCH))
+2021-03-04 23:09:21,538 DEBUG [northstar::runtime::process] Process 2833481 exit code is 1
+2021-03-04 23:09:21,540 INFO  [northstar::runtime::console] [::1]:57902: Connection closed
+2021-03-04 23:09:21,540 INFO  [northstar::runtime::console] Connection to [::1]:57902 closed
+2021-03-04 23:09:21,540 DEBUG [northstar::runtime::console] Client "[::1]:57918" connected
+2021-03-04 23:09:21,540 INFO  [northstar::runtime::state] Stopping test03:0.0.1
+2021-03-04 23:09:21,540 ERROR [northstar::runtime::state] Failed to stop test03: Process: Os("Failed to SIGTERM 2833481", Sys(ESRCH))
+2021-03-04 23:09:21,540 INFO  [northstar::runtime::state] Starting test06:0.0.1
+2021-03-04 23:09:21,540 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test06
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test06 to 1000:1000
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test06 on /data
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,541 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,542 INFO  [northstar::runtime::console] [::1]:57906: Connection closed
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::console] Client "[::1]:57920" connected
+2021-03-04 23:09:21,542 INFO  [northstar::runtime::state] Started test06:0.0.1
+2021-03-04 23:09:21,542 INFO  [northstar::runtime::console] Connection to [::1]:57906 closed
+2021-03-04 23:09:21,542 INFO  [northstar::runtime::state] Starting test07:0.0.1
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,542 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test07
+2021-03-04 23:09:21,543 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test07 to 1000:1000
+2021-03-04 23:09:21,543 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test07 on /data
+2021-03-04 23:09:21,543 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,543 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,544 INFO  [northstar::runtime::state] Started test07:0.0.1
+2021-03-04 23:09:21,544 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test05
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:09:21,544 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:09:21,545 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:21,545 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:21,545 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:09:21,546 INFO  [northstar::runtime::state] Stopping test04:0.0.1
+2021-03-04 23:09:21,548 DEBUG [northstar::runtime::process] Process 2833486 exit code is 0
+2021-03-04 23:09:21,548 INFO  [northstar::runtime::state] Stopped test04:0.0.1 Exit(0)
+2021-03-04 23:09:21,548 INFO  [northstar::runtime::state] Stopping test06:0.0.1
+2021-03-04 23:09:21,549 DEBUG [northstar::runtime::console] Client "[::1]:57922" connected
+2021-03-04 23:09:21,549 INFO  [northstar::runtime::console] [::1]:57908: Connection closed
+2021-03-04 23:09:21,549 INFO  [northstar::runtime::console] Connection to [::1]:57908 closed
+2021-03-04 23:09:21,550 DEBUG [northstar::runtime::process] Process 2833489 exit code is 0
+2021-03-04 23:09:21,550 INFO  [northstar::runtime::state] Stopped test06:0.0.1 Exit(0)
+2021-03-04 23:09:21,550 INFO  [northstar::runtime::state] Stopping test07:0.0.1
+2021-03-04 23:09:21,551 INFO  [northstar::runtime::console] [::1]:57910: Connection closed
+2021-03-04 23:09:21,551 DEBUG [northstar::runtime::console] Client "[::1]:57924" connected
+2021-03-04 23:09:21,551 INFO  [northstar::runtime::console] Connection to [::1]:57910 closed
+2021-03-04 23:09:21,552 DEBUG [northstar::runtime::process] Process 2833490 exit code is 0
+2021-03-04 23:09:21,552 INFO  [northstar::runtime::state] Stopped test07:0.0.1 Exit(0)
+2021-03-04 23:09:21,552 INFO  [northstar::runtime::state] Stopping test05:0.0.1
+2021-03-04 23:09:21,553 INFO  [northstar::runtime::console] [::1]:57912: Connection closed
+2021-03-04 23:09:21,553 DEBUG [northstar::runtime::console] Client "[::1]:57926" connected
+2021-03-04 23:09:21,553 INFO  [northstar::runtime::console] Connection to [::1]:57912 closed
+2021-03-04 23:09:21,554 DEBUG [northstar::runtime::process] Process 2833492 exit code is 0
+2021-03-04 23:09:21,554 INFO  [northstar::runtime::state] Stopped test05:0.0.1 Exit(0)
+2021-03-04 23:09:21,555 INFO  [northstar::runtime::console] [::1]:57914: Connection closed
+2021-03-04 23:09:21,555 DEBUG [northstar::runtime::console] Client "[::1]:57928" connected
+2021-03-04 23:09:21,555 INFO  [northstar::runtime::console] Connection to [::1]:57914 closed
+2021-03-04 23:09:51,516 INFO  [northstar::runtime::state] Starting test07:0.0.1
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test07 to 1000:1000
+2021-03-04 23:09:51,516 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test07 on /data
+2021-03-04 23:09:51,517 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:51,518 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:51,518 INFO  [northstar::runtime::state] Started test07:0.0.1
+2021-03-04 23:09:51,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:09:51,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:09:51,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:09:51,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:09:51,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:09:51,545 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:09:51,545 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:09:51,545 DEBUG [northstar::runtime::process] Process 2833636 exit code is 1
+2021-03-04 23:09:51,546 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 24.029677ms and status Exit(1)
+2021-03-04 23:09:51,546 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:09:51,546 DEBUG [northstar::runtime::process] Process 2833633 exit code is 1
+2021-03-04 23:09:51,547 INFO  [northstar::runtime::state] Process test07:0.0.1 exited after 28.677969ms and status Exit(1)
+2021-03-04 23:09:51,547 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:10:21,510 INFO  [northstar::runtime::state] Starting test04:0.0.1
+2021-03-04 23:10:21,510 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:10:21,510 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:10:21,510 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:10:21,511 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test04 to 1000:1000
+2021-03-04 23:10:21,511 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test04 on /data
+2021-03-04 23:10:21,511 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:10:21,511 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:10:21,511 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:10:21,513 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:10:21,513 INFO  [northstar::runtime::state] Started test04:0.0.1
+2021-03-04 23:10:21,515 INFO  [northstar::runtime::state] Starting test06:0.0.1
+2021-03-04 23:10:21,515 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:10:21,515 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:10:21,515 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:10:21,515 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:10:21,516 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test06 to 1000:1000
+2021-03-04 23:10:21,516 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test06 on /data
+2021-03-04 23:10:21,516 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:10:21,516 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:10:21,517 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:10:21,518 INFO  [northstar::runtime::state] Started test06:0.0.1
+2021-03-04 23:10:21,537 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:10:21,539 DEBUG [northstar::runtime::process] Process 2833746 exit code is 1
+2021-03-04 23:10:21,540 INFO  [northstar::runtime::state] Process test06:0.0.1 exited after 22.133378ms and status Exit(1)
+2021-03-04 23:10:21,540 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:10:21,544 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:10:21,545 DEBUG [northstar::runtime::process] Process 2833743 exit code is 1
+2021-03-04 23:10:21,546 INFO  [northstar::runtime::state] Process test04:0.0.1 exited after 32.900272ms and status Exit(1)
+2021-03-04 23:10:21,546 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:18:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-04 23:18:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-04 23:18:21,518 DEBUG [northstar::runtime::console] Client "[::1]:58022" connected
+2021-03-04 23:18:21,518 INFO  [northstar::runtime::console] [::1]:57928: Connection closed
+2021-03-04 23:18:21,518 INFO  [northstar::runtime::console] Connection to [::1]:57928 closed
+2021-03-04 23:18:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:18:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:18:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:18:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:18:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:18:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:18:21,527 DEBUG [northstar::runtime::process] Process 2835503 exit code is 1
+2021-03-04 23:18:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.207002ms and status Exit(1)
+2021-03-04 23:18:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:27:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-04 23:27:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-04 23:27:21,517 INFO  [northstar::runtime::console] [::1]:58022: Connection closed
+2021-03-04 23:27:21,517 INFO  [northstar::runtime::console] Connection to [::1]:58022 closed
+2021-03-04 23:27:21,517 DEBUG [northstar::runtime::console] Client "[::1]:58088" connected
+2021-03-04 23:27:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:27:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:27:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:27:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:27:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:27:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:27:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:27:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:27:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:27:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:27:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:27:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:27:21,527 DEBUG [northstar::runtime::process] Process 2836840 exit code is 1
+2021-03-04 23:27:21,528 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.325497ms and status Exit(1)
+2021-03-04 23:27:21,528 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:36:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-04 23:36:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-04 23:36:21,518 INFO  [northstar::runtime::console] [::1]:58088: Connection closed
+2021-03-04 23:36:21,518 INFO  [northstar::runtime::console] Connection to [::1]:58088 closed
+2021-03-04 23:36:21,519 DEBUG [northstar::runtime::console] Client "[::1]:58170" connected
+2021-03-04 23:36:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:36:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:36:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:36:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:36:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:36:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:36:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:36:21,530 DEBUG [northstar::runtime::process] Process 2838428 exit code is 1
+2021-03-04 23:36:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.98365ms and status Exit(1)
+2021-03-04 23:36:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:45:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-04 23:45:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-04 23:45:21,519 INFO  [northstar::runtime::console] [::1]:58170: Connection closed
+2021-03-04 23:45:21,519 INFO  [northstar::runtime::console] Connection to [::1]:58170 closed
+2021-03-04 23:45:21,519 DEBUG [northstar::runtime::console] Client "[::1]:58230" connected
+2021-03-04 23:45:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:45:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:45:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:45:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:45:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:45:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:45:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:45:21,530 DEBUG [northstar::runtime::process] Process 2839630 exit code is 1
+2021-03-04 23:45:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.95182ms and status Exit(1)
+2021-03-04 23:45:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-04 23:54:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-04 23:54:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-04 23:54:21,519 DEBUG [northstar::runtime::console] Client "[::1]:58328" connected
+2021-03-04 23:54:21,519 INFO  [northstar::runtime::console] [::1]:58230: Connection closed
+2021-03-04 23:54:21,519 INFO  [northstar::runtime::console] Connection to [::1]:58230 closed
+2021-03-04 23:54:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-04 23:54:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-04 23:54:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-04 23:54:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-04 23:54:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-04 23:54:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-04 23:54:21,529 DEBUG [northstar::runtime::process] Process 2841304 exit code is 1
+2021-03-04 23:54:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.360911ms and status Exit(1)
+2021-03-04 23:54:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:03:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:03:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:03:21,518 INFO  [northstar::runtime::console] [::1]:58328: Connection closed
+2021-03-05 00:03:21,518 INFO  [northstar::runtime::console] Connection to [::1]:58328 closed
+2021-03-05 00:03:21,518 DEBUG [northstar::runtime::console] Client "[::1]:58410" connected
+2021-03-05 00:03:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:03:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:03:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:03:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:03:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:03:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:03:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:03:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:03:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:03:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:03:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:03:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:03:21,529 DEBUG [northstar::runtime::process] Process 2843037 exit code is 1
+2021-03-05 00:03:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 8.134225ms and status Exit(1)
+2021-03-05 00:03:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:12:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:12:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:12:21,518 DEBUG [northstar::runtime::console] Client "[::1]:58474" connected
+2021-03-05 00:12:21,518 INFO  [northstar::runtime::console] [::1]:58410: Connection closed
+2021-03-05 00:12:21,518 INFO  [northstar::runtime::console] Connection to [::1]:58410 closed
+2021-03-05 00:12:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:12:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:12:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:12:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:12:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:12:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:12:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:12:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:12:21,522 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:12:21,524 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:12:21,524 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:12:21,530 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:12:21,531 DEBUG [northstar::runtime::process] Process 2844483 exit code is 1
+2021-03-05 00:12:21,532 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.253358ms and status Exit(1)
+2021-03-05 00:12:21,532 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:21:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:21:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:21:21,519 DEBUG [northstar::runtime::console] Client "[::1]:58532" connected
+2021-03-05 00:21:21,519 INFO  [northstar::runtime::console] [::1]:58474: Connection closed
+2021-03-05 00:21:21,520 INFO  [northstar::runtime::console] Connection to [::1]:58474 closed
+2021-03-05 00:21:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:21:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:21:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:21:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:21:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:21:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:21:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:21:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:21:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:21:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:21:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:21:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:21:21,529 DEBUG [northstar::runtime::process] Process 2846238 exit code is 1
+2021-03-05 00:21:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.90473ms and status Exit(1)
+2021-03-05 00:21:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:30:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:30:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:30:21,520 INFO  [northstar::runtime::console] [::1]:58532: Connection closed
+2021-03-05 00:30:21,520 DEBUG [northstar::runtime::console] Client "[::1]:58598" connected
+2021-03-05 00:30:21,520 INFO  [northstar::runtime::console] Connection to [::1]:58532 closed
+2021-03-05 00:30:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:30:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:30:21,522 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:30:21,524 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:30:21,524 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:30:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:30:21,530 DEBUG [northstar::runtime::process] Process 2847856 exit code is 1
+2021-03-05 00:30:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.072854ms and status Exit(1)
+2021-03-05 00:30:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:39:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:39:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:39:21,517 INFO  [northstar::runtime::console] [::1]:58598: Connection closed
+2021-03-05 00:39:21,517 INFO  [northstar::runtime::console] Connection to [::1]:58598 closed
+2021-03-05 00:39:21,517 DEBUG [northstar::runtime::console] Client "[::1]:58674" connected
+2021-03-05 00:39:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:39:21,518 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:39:21,519 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:39:21,520 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:39:21,525 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:39:21,527 DEBUG [northstar::runtime::process] Process 2849273 exit code is 1
+2021-03-05 00:39:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.384843ms and status Exit(1)
+2021-03-05 00:39:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:48:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:48:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:48:21,521 INFO  [northstar::runtime::console] [::1]:58674: Connection closed
+2021-03-05 00:48:21,521 INFO  [northstar::runtime::console] Connection to [::1]:58674 closed
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::console] Client "[::1]:58744" connected
+2021-03-05 00:48:21,521 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:48:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:48:21,522 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:48:21,522 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:48:21,522 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:48:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:48:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:48:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:48:21,530 DEBUG [northstar::runtime::process] Process 2850448 exit code is 1
+2021-03-05 00:48:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.116793ms and status Exit(1)
+2021-03-05 00:48:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 00:57:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 00:57:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 00:57:21,518 DEBUG [northstar::runtime::console] Client "[::1]:58804" connected
+2021-03-05 00:57:21,519 INFO  [northstar::runtime::console] [::1]:58744: Connection closed
+2021-03-05 00:57:21,519 INFO  [northstar::runtime::console] Connection to [::1]:58744 closed
+2021-03-05 00:57:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 00:57:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 00:57:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 00:57:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 00:57:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 00:57:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 00:57:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 00:57:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 00:57:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 00:57:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 00:57:21,524 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 00:57:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 00:57:21,530 DEBUG [northstar::runtime::process] Process 2851465 exit code is 1
+2021-03-05 00:57:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.871783ms and status Exit(1)
+2021-03-05 00:57:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:06:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:06:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:06:21,517 INFO  [northstar::runtime::console] [::1]:58804: Connection closed
+2021-03-05 01:06:21,517 INFO  [northstar::runtime::console] Connection to [::1]:58804 closed
+2021-03-05 01:06:21,517 DEBUG [northstar::runtime::console] Client "[::1]:58912" connected
+2021-03-05 01:06:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:06:21,518 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:06:21,519 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:06:21,519 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:06:21,524 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:06:21,525 DEBUG [northstar::runtime::process] Process 2852755 exit code is 1
+2021-03-05 01:06:21,525 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.048228ms and status Exit(1)
+2021-03-05 01:06:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:15:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:15:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:15:21,519 DEBUG [northstar::runtime::console] Client "[::1]:59030" connected
+2021-03-05 01:15:21,520 INFO  [northstar::runtime::console] [::1]:58912: Connection closed
+2021-03-05 01:15:21,520 INFO  [northstar::runtime::console] Connection to [::1]:58912 closed
+2021-03-05 01:15:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:15:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:15:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:15:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:15:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:15:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:15:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:15:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:15:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:15:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:15:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:15:21,530 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:15:21,531 DEBUG [northstar::runtime::process] Process 2854201 exit code is 1
+2021-03-05 01:15:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.85335ms and status Exit(1)
+2021-03-05 01:15:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:24:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:24:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:24:21,518 INFO  [northstar::runtime::console] [::1]:59030: Connection closed
+2021-03-05 01:24:21,518 INFO  [northstar::runtime::console] Connection to [::1]:59030 closed
+2021-03-05 01:24:21,519 DEBUG [northstar::runtime::console] Client "[::1]:59148" connected
+2021-03-05 01:24:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:24:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:24:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:24:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:24:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:24:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:24:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:24:21,529 DEBUG [northstar::runtime::process] Process 2856043 exit code is 1
+2021-03-05 01:24:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.511484ms and status Exit(1)
+2021-03-05 01:24:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:33:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:33:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:33:21,519 DEBUG [northstar::runtime::console] Client "[::1]:59276" connected
+2021-03-05 01:33:21,519 INFO  [northstar::runtime::console] [::1]:59148: Connection closed
+2021-03-05 01:33:21,519 INFO  [northstar::runtime::console] Connection to [::1]:59148 closed
+2021-03-05 01:33:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:33:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:33:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:33:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:33:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:33:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:33:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:33:21,531 DEBUG [northstar::runtime::process] Process 2858045 exit code is 1
+2021-03-05 01:33:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.404254ms and status Exit(1)
+2021-03-05 01:33:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:42:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:42:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:42:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59376" connected
+2021-03-05 01:42:21,518 INFO  [northstar::runtime::console] [::1]:59276: Connection closed
+2021-03-05 01:42:21,519 INFO  [northstar::runtime::console] Connection to [::1]:59276 closed
+2021-03-05 01:42:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:42:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:42:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:42:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:42:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:42:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:42:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:42:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:42:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:42:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:42:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:42:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:42:21,530 DEBUG [northstar::runtime::process] Process 2859606 exit code is 1
+2021-03-05 01:42:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.916684ms and status Exit(1)
+2021-03-05 01:42:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 01:51:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 01:51:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 01:51:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59480" connected
+2021-03-05 01:51:21,519 INFO  [northstar::runtime::console] [::1]:59376: Connection closed
+2021-03-05 01:51:21,519 INFO  [northstar::runtime::console] Connection to [::1]:59376 closed
+2021-03-05 01:51:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 01:51:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 01:51:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 01:51:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 01:51:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 01:51:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 01:51:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 01:51:21,530 DEBUG [northstar::runtime::process] Process 2861295 exit code is 1
+2021-03-05 01:51:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.350229ms and status Exit(1)
+2021-03-05 01:51:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:00:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:00:21,515 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:00:21,517 INFO  [northstar::runtime::console] [::1]:59480: Connection closed
+2021-03-05 02:00:21,517 INFO  [northstar::runtime::console] Connection to [::1]:59480 closed
+2021-03-05 02:00:21,517 DEBUG [northstar::runtime::console] Client "[::1]:59576" connected
+2021-03-05 02:00:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:00:21,518 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:00:21,519 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:00:21,520 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:00:21,524 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:00:21,524 DEBUG [northstar::runtime::process] Process 2874776 exit code is 1
+2021-03-05 02:00:21,524 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 4.982544ms and status Exit(1)
+2021-03-05 02:00:21,525 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:09:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:09:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:09:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59652" connected
+2021-03-05 02:09:21,518 INFO  [northstar::runtime::console] [::1]:59576: Connection closed
+2021-03-05 02:09:21,518 INFO  [northstar::runtime::console] Connection to [::1]:59576 closed
+2021-03-05 02:09:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:09:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:09:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:09:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:09:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:09:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:09:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:09:21,528 DEBUG [northstar::runtime::process] Process 2885677 exit code is 1
+2021-03-05 02:09:21,528 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.319278ms and status Exit(1)
+2021-03-05 02:09:21,528 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:18:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:18:21,518 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:18:21,520 INFO  [northstar::runtime::console] [::1]:59652: Connection closed
+2021-03-05 02:18:21,520 DEBUG [northstar::runtime::console] Client "[::1]:59728" connected
+2021-03-05 02:18:21,520 INFO  [northstar::runtime::console] Connection to [::1]:59652 closed
+2021-03-05 02:18:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:18:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:18:21,522 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:18:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:18:21,524 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:18:21,530 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:18:21,531 DEBUG [northstar::runtime::process] Process 2887466 exit code is 1
+2021-03-05 02:18:21,532 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 8.087408ms and status Exit(1)
+2021-03-05 02:18:21,532 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:27:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:27:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:27:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59782" connected
+2021-03-05 02:27:21,518 INFO  [northstar::runtime::console] [::1]:59728: Connection closed
+2021-03-05 02:27:21,518 INFO  [northstar::runtime::console] Connection to [::1]:59728 closed
+2021-03-05 02:27:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:27:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:27:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:27:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:27:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:27:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:27:21,525 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:27:21,526 DEBUG [northstar::runtime::process] Process 2891343 exit code is 1
+2021-03-05 02:27:21,526 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 4.923187ms and status Exit(1)
+2021-03-05 02:27:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:36:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:36:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:36:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59874" connected
+2021-03-05 02:36:21,518 INFO  [northstar::runtime::console] [::1]:59782: Connection closed
+2021-03-05 02:36:21,519 INFO  [northstar::runtime::console] Connection to [::1]:59782 closed
+2021-03-05 02:36:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:36:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:36:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:36:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:36:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:36:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:36:21,530 DEBUG [northstar::runtime::process] Process 2898036 exit code is 1
+2021-03-05 02:36:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.717158ms and status Exit(1)
+2021-03-05 02:36:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:45:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:45:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:45:21,518 INFO  [northstar::runtime::console] [::1]:59874: Connection closed
+2021-03-05 02:45:21,518 INFO  [northstar::runtime::console] Connection to [::1]:59874 closed
+2021-03-05 02:45:21,518 DEBUG [northstar::runtime::console] Client "[::1]:59928" connected
+2021-03-05 02:45:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:45:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:45:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:45:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:45:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:45:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:45:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:45:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:45:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:45:21,520 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:45:21,520 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:45:21,524 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:45:21,525 DEBUG [northstar::runtime::process] Process 2899239 exit code is 1
+2021-03-05 02:45:21,526 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.594318ms and status Exit(1)
+2021-03-05 02:45:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 02:54:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 02:54:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 02:54:21,517 INFO  [northstar::runtime::console] [::1]:59928: Connection closed
+2021-03-05 02:54:21,517 INFO  [northstar::runtime::console] Connection to [::1]:59928 closed
+2021-03-05 02:54:21,517 DEBUG [northstar::runtime::console] Client "[::1]:60014" connected
+2021-03-05 02:54:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 02:54:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 02:54:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 02:54:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 02:54:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 02:54:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 02:54:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 02:54:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 02:54:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 02:54:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 02:54:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 02:54:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 02:54:21,527 DEBUG [northstar::runtime::process] Process 2900303 exit code is 1
+2021-03-05 02:54:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.536709ms and status Exit(1)
+2021-03-05 02:54:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:03:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:03:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:03:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60072" connected
+2021-03-05 03:03:21,518 INFO  [northstar::runtime::console] [::1]:60014: Connection closed
+2021-03-05 03:03:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60014 closed
+2021-03-05 03:03:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:03:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:03:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:03:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:03:21,520 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:03:21,520 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:03:21,524 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:03:21,526 DEBUG [northstar::runtime::process] Process 2901693 exit code is 1
+2021-03-05 03:03:21,526 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.778516ms and status Exit(1)
+2021-03-05 03:03:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:12:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:12:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:12:21,517 INFO  [northstar::runtime::console] [::1]:60072: Connection closed
+2021-03-05 03:12:21,517 INFO  [northstar::runtime::console] Connection to [::1]:60072 closed
+2021-03-05 03:12:21,517 DEBUG [northstar::runtime::console] Client "[::1]:60138" connected
+2021-03-05 03:12:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:12:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:12:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:12:21,520 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:12:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:12:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:12:21,528 DEBUG [northstar::runtime::process] Process 2902839 exit code is 1
+2021-03-05 03:12:21,528 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.397214ms and status Exit(1)
+2021-03-05 03:12:21,528 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:21:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:21:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:21:21,518 INFO  [northstar::runtime::console] [::1]:60138: Connection closed
+2021-03-05 03:21:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60138 closed
+2021-03-05 03:21:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60202" connected
+2021-03-05 03:21:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:21:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:21:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:21:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:21:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:21:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:21:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:21:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:21:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:21:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:21:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:21:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:21:21,529 DEBUG [northstar::runtime::process] Process 2904427 exit code is 1
+2021-03-05 03:21:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 8.131935ms and status Exit(1)
+2021-03-05 03:21:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:30:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:30:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:30:21,517 INFO  [northstar::runtime::console] [::1]:60202: Connection closed
+2021-03-05 03:30:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60202 closed
+2021-03-05 03:30:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60282" connected
+2021-03-05 03:30:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:30:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:30:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:30:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:30:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:30:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:30:21,529 DEBUG [northstar::runtime::process] Process 2905744 exit code is 1
+2021-03-05 03:30:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.657767ms and status Exit(1)
+2021-03-05 03:30:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:39:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:39:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:39:21,517 INFO  [northstar::runtime::console] [::1]:60282: Connection closed
+2021-03-05 03:39:21,517 INFO  [northstar::runtime::console] Connection to [::1]:60282 closed
+2021-03-05 03:39:21,517 DEBUG [northstar::runtime::console] Client "[::1]:60348" connected
+2021-03-05 03:39:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:39:21,518 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:39:21,519 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:39:21,519 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:39:21,525 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:39:21,526 DEBUG [northstar::runtime::process] Process 2907383 exit code is 1
+2021-03-05 03:39:21,526 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.35773ms and status Exit(1)
+2021-03-05 03:39:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:48:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:48:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:48:21,518 INFO  [northstar::runtime::console] [::1]:60348: Connection closed
+2021-03-05 03:48:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60348 closed
+2021-03-05 03:48:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60464" connected
+2021-03-05 03:48:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:48:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:48:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:48:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:48:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:48:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:48:21,527 DEBUG [northstar::runtime::process] Process 2909378 exit code is 1
+2021-03-05 03:48:21,528 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.214991ms and status Exit(1)
+2021-03-05 03:48:21,528 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 03:57:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 03:57:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 03:57:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60566" connected
+2021-03-05 03:57:21,518 INFO  [northstar::runtime::console] [::1]:60464: Connection closed
+2021-03-05 03:57:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60464 closed
+2021-03-05 03:57:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 03:57:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 03:57:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 03:57:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 03:57:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 03:57:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 03:57:21,528 DEBUG [northstar::runtime::process] Process 2910673 exit code is 1
+2021-03-05 03:57:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.393212ms and status Exit(1)
+2021-03-05 03:57:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:06:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:06:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:06:21,518 INFO  [northstar::runtime::console] [::1]:60566: Connection closed
+2021-03-05 04:06:21,518 INFO  [northstar::runtime::console] Connection to [::1]:60566 closed
+2021-03-05 04:06:21,518 DEBUG [northstar::runtime::console] Client "[::1]:60642" connected
+2021-03-05 04:06:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:06:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:06:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:06:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:06:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:06:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:06:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:06:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:06:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:06:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:06:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:06:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:06:21,528 DEBUG [northstar::runtime::process] Process 2912072 exit code is 1
+2021-03-05 04:06:21,528 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.256524ms and status Exit(1)
+2021-03-05 04:06:21,528 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:15:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:15:21,515 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:15:21,517 INFO  [northstar::runtime::console] [::1]:60642: Connection closed
+2021-03-05 04:15:21,517 INFO  [northstar::runtime::console] Connection to [::1]:60642 closed
+2021-03-05 04:15:21,517 DEBUG [northstar::runtime::console] Client "[::1]:60718" connected
+2021-03-05 04:15:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:15:21,518 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:15:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:15:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:15:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:15:21,524 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:15:21,526 DEBUG [northstar::runtime::process] Process 2913828 exit code is 1
+2021-03-05 04:15:21,526 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 4.532037ms and status Exit(1)
+2021-03-05 04:15:21,526 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:24:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:24:21,515 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:24:21,516 INFO  [northstar::runtime::console] [::1]:60718: Connection closed
+2021-03-05 04:24:21,516 INFO  [northstar::runtime::console] Connection to [::1]:60718 closed
+2021-03-05 04:24:21,516 DEBUG [northstar::runtime::console] Client "[::1]:60782" connected
+2021-03-05 04:24:21,517 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:24:21,517 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:24:21,519 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:24:21,519 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:24:21,523 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:24:21,524 DEBUG [northstar::runtime::process] Process 2915373 exit code is 1
+2021-03-05 04:24:21,524 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.663932ms and status Exit(1)
+2021-03-05 04:24:21,524 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:33:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:33:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:33:21,519 DEBUG [northstar::runtime::console] Client "[::1]:60866" connected
+2021-03-05 04:33:21,519 INFO  [northstar::runtime::console] [::1]:60782: Connection closed
+2021-03-05 04:33:21,519 INFO  [northstar::runtime::console] Connection to [::1]:60782 closed
+2021-03-05 04:33:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:33:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:33:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:33:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:33:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:33:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:33:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:33:21,529 DEBUG [northstar::runtime::process] Process 2917245 exit code is 1
+2021-03-05 04:33:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.349126ms and status Exit(1)
+2021-03-05 04:33:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:42:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:42:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:42:21,519 INFO  [northstar::runtime::console] [::1]:60866: Connection closed
+2021-03-05 04:42:21,519 INFO  [northstar::runtime::console] Connection to [::1]:60866 closed
+2021-03-05 04:42:21,519 DEBUG [northstar::runtime::console] Client "[::1]:60930" connected
+2021-03-05 04:42:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:42:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:42:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:42:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:42:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:42:21,528 DEBUG [northstar::runtime::process] Process 2918498 exit code is 1
+2021-03-05 04:42:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.8626ms and status Exit(1)
+2021-03-05 04:42:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 04:51:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 04:51:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 04:51:21,518 DEBUG [northstar::runtime::console] Client "[::1]:32782" connected
+2021-03-05 04:51:21,519 INFO  [northstar::runtime::console] [::1]:60930: Connection closed
+2021-03-05 04:51:21,519 INFO  [northstar::runtime::console] Connection to [::1]:60930 closed
+2021-03-05 04:51:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 04:51:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 04:51:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 04:51:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 04:51:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 04:51:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 04:51:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 04:51:21,529 DEBUG [northstar::runtime::process] Process 2919972 exit code is 1
+2021-03-05 04:51:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.057553ms and status Exit(1)
+2021-03-05 04:51:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:00:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:00:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::console] Client "[::1]:32858" connected
+2021-03-05 05:00:21,517 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:00:21,517 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:00:21,518 INFO  [northstar::runtime::console] [::1]:32782: Connection closed
+2021-03-05 05:00:21,518 INFO  [northstar::runtime::console] Connection to [::1]:32782 closed
+2021-03-05 05:00:21,518 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:00:21,518 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:00:21,519 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:00:21,522 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:00:21,523 DEBUG [northstar::runtime::process] Process 2921764 exit code is 1
+2021-03-05 05:00:21,523 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 4.259565ms and status Exit(1)
+2021-03-05 05:00:21,523 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:09:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:09:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:09:21,518 INFO  [northstar::runtime::console] [::1]:32858: Connection closed
+2021-03-05 05:09:21,518 DEBUG [northstar::runtime::console] Client "[::1]:32936" connected
+2021-03-05 05:09:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:09:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:09:21,518 INFO  [northstar::runtime::console] Connection to [::1]:32858 closed
+2021-03-05 05:09:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:09:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:09:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:09:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:09:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:09:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:09:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:09:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:09:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:09:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:09:21,528 DEBUG [northstar::runtime::process] Process 2922854 exit code is 1
+2021-03-05 05:09:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.111496ms and status Exit(1)
+2021-03-05 05:09:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:18:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:18:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:18:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33020" connected
+2021-03-05 05:18:21,518 INFO  [northstar::runtime::console] [::1]:32936: Connection closed
+2021-03-05 05:18:21,518 INFO  [northstar::runtime::console] Connection to [::1]:32936 closed
+2021-03-05 05:18:21,518 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:18:21,518 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:18:21,518 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:18:21,518 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:18:21,518 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:18:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:18:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:18:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:18:21,519 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:18:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:18:21,521 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:18:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:18:21,527 DEBUG [northstar::runtime::process] Process 2924169 exit code is 1
+2021-03-05 05:18:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.331499ms and status Exit(1)
+2021-03-05 05:18:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:27:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:27:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:27:21,519 DEBUG [northstar::runtime::console] Client "[::1]:33100" connected
+2021-03-05 05:27:21,519 INFO  [northstar::runtime::console] [::1]:33020: Connection closed
+2021-03-05 05:27:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:27:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:27:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:27:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:27:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:27:21,519 INFO  [northstar::runtime::console] Connection to [::1]:33020 closed
+2021-03-05 05:27:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:27:21,531 DEBUG [northstar::runtime::process] Process 2925443 exit code is 1
+2021-03-05 05:27:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 8.453203ms and status Exit(1)
+2021-03-05 05:27:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:36:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:36:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:36:21,518 INFO  [northstar::runtime::console] [::1]:33100: Connection closed
+2021-03-05 05:36:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33174" connected
+2021-03-05 05:36:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33100 closed
+2021-03-05 05:36:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:36:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:36:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:36:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:36:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:36:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:36:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:36:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:36:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:36:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:36:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:36:21,529 DEBUG [northstar::runtime::process] Process 2927112 exit code is 1
+2021-03-05 05:36:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.492237ms and status Exit(1)
+2021-03-05 05:36:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:45:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:45:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:45:21,518 INFO  [northstar::runtime::console] [::1]:33174: Connection closed
+2021-03-05 05:45:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33174 closed
+2021-03-05 05:45:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33240" connected
+2021-03-05 05:45:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:45:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:45:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:45:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:45:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:45:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:45:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:45:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:45:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:45:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:45:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:45:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:45:21,531 DEBUG [northstar::runtime::process] Process 2928510 exit code is 1
+2021-03-05 05:45:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 9.219598ms and status Exit(1)
+2021-03-05 05:45:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 05:54:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 05:54:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 05:54:21,519 INFO  [northstar::runtime::console] [::1]:33240: Connection closed
+2021-03-05 05:54:21,519 INFO  [northstar::runtime::console] Connection to [::1]:33240 closed
+2021-03-05 05:54:21,519 DEBUG [northstar::runtime::console] Client "[::1]:33328" connected
+2021-03-05 05:54:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 05:54:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 05:54:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 05:54:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 05:54:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 05:54:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 05:54:21,529 DEBUG [northstar::runtime::process] Process 2929931 exit code is 1
+2021-03-05 05:54:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 6.520152ms and status Exit(1)
+2021-03-05 05:54:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:03:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:03:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:03:21,518 INFO  [northstar::runtime::console] [::1]:33328: Connection closed
+2021-03-05 06:03:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33328 closed
+2021-03-05 06:03:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33414" connected
+2021-03-05 06:03:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:03:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:03:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:03:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:03:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:03:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:03:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:03:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:03:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:03:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:03:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:03:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:03:21,527 DEBUG [northstar::runtime::process] Process 2931393 exit code is 1
+2021-03-05 06:03:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.661861ms and status Exit(1)
+2021-03-05 06:03:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:12:21,515 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:12:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:12:21,518 INFO  [northstar::runtime::console] [::1]:33414: Connection closed
+2021-03-05 06:12:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33414 closed
+2021-03-05 06:12:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33484" connected
+2021-03-05 06:12:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:12:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:12:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:12:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:12:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:12:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:12:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:12:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:12:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:12:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:12:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:12:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:12:21,530 DEBUG [northstar::runtime::process] Process 2945020 exit code is 1
+2021-03-05 06:12:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 8.69167ms and status Exit(1)
+2021-03-05 06:12:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:21:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:21:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:21:21,520 INFO  [northstar::runtime::console] [::1]:33484: Connection closed
+2021-03-05 06:21:21,520 INFO  [northstar::runtime::console] Connection to [::1]:33484 closed
+2021-03-05 06:21:21,520 DEBUG [northstar::runtime::console] Client "[::1]:33558" connected
+2021-03-05 06:21:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:21:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:21:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:21:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:21:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:21:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:21:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:21:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:21:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:21:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:21:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:21:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:21:21,530 DEBUG [northstar::runtime::process] Process 2956115 exit code is 1
+2021-03-05 06:21:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.404991ms and status Exit(1)
+2021-03-05 06:21:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:30:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:30:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:30:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33616" connected
+2021-03-05 06:30:21,518 INFO  [northstar::runtime::console] [::1]:33558: Connection closed
+2021-03-05 06:30:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33558 closed
+2021-03-05 06:30:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:30:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:30:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:30:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:30:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:30:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:30:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:30:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:30:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:30:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:30:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:30:21,527 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:30:21,529 DEBUG [northstar::runtime::process] Process 2957728 exit code is 1
+2021-03-05 06:30:21,529 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.301405ms and status Exit(1)
+2021-03-05 06:30:21,529 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:39:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:39:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:39:21,518 INFO  [northstar::runtime::console] [::1]:33616: Connection closed
+2021-03-05 06:39:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33694" connected
+2021-03-05 06:39:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33616 closed
+2021-03-05 06:39:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:39:21,519 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:39:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:39:21,521 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:39:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:39:21,526 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:39:21,527 DEBUG [northstar::runtime::process] Process 2959235 exit code is 1
+2021-03-05 06:39:21,527 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 5.436156ms and status Exit(1)
+2021-03-05 06:39:21,527 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:48:21,517 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:48:21,517 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:48:21,519 DEBUG [northstar::runtime::console] Client "[::1]:33762" connected
+2021-03-05 06:48:21,519 INFO  [northstar::runtime::console] [::1]:33694: Connection closed
+2021-03-05 06:48:21,519 INFO  [northstar::runtime::console] Connection to [::1]:33694 closed
+2021-03-05 06:48:21,520 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:48:21,520 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:48:21,520 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:48:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:48:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:48:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:48:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:48:21,521 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:48:21,521 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:48:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:48:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:48:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:48:21,530 DEBUG [northstar::runtime::process] Process 2960392 exit code is 1
+2021-03-05 06:48:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.633598ms and status Exit(1)
+2021-03-05 06:48:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 06:57:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 06:57:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 06:57:21,519 INFO  [northstar::runtime::console] [::1]:33762: Connection closed
+2021-03-05 06:57:21,519 INFO  [northstar::runtime::console] Connection to [::1]:33762 closed
+2021-03-05 06:57:21,519 DEBUG [northstar::runtime::console] Client "[::1]:33826" connected
+2021-03-05 06:57:21,521 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 06:57:21,521 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 06:57:21,522 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 06:57:21,522 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 06:57:21,523 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 06:57:21,523 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 06:57:21,529 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 06:57:21,531 DEBUG [northstar::runtime::process] Process 2966797 exit code is 1
+2021-03-05 06:57:21,531 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.972158ms and status Exit(1)
+2021-03-05 06:57:21,531 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 07:06:21,516 WARN  [northstar::runtime::state] Application test05:0.0.1 is not running
+2021-03-05 07:06:21,516 ERROR [northstar::runtime::state] Failed to stop test05: Application is not running
+2021-03-05 07:06:21,518 INFO  [northstar::runtime::console] [::1]:33826: Connection closed
+2021-03-05 07:06:21,518 INFO  [northstar::runtime::console] Connection to [::1]:33826 closed
+2021-03-05 07:06:21,518 DEBUG [northstar::runtime::console] Client "[::1]:33920" connected
+2021-03-05 07:06:21,519 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-05 07:06:21,519 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-05 07:06:21,519 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-05 07:06:21,520 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-05 07:06:21,522 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-05 07:06:21,522 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-05 07:06:21,528 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-05 07:06:21,529 DEBUG [northstar::runtime::process] Process 2970237 exit code is 1
+2021-03-05 07:06:21,530 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 7.654514ms and status Exit(1)
+2021-03-05 07:06:21,530 INFO  [northstar::runtime::state] Destroying context
+2021-03-05 07:09:20,408 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/datarw/0.0.1
+2021-03-05 07:09:20,409 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,452 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/datarw/0.0.1
+2021-03-05 07:09:20,454 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/capabilities/0.0.1
+2021-03-05 07:09:20,455 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,496 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/capabilities/0.0.1
+2021-03-05 07:09:20,497 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/seccomp/0.0.1
+2021-03-05 07:09:20,498 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,542 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/seccomp/0.0.1
+2021-03-05 07:09:20,542 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test03/0.0.1
+2021-03-05 07:09:20,571 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test03/0.0.1
+2021-03-05 07:09:20,572 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/cpueater/0.0.1
+2021-03-05 07:09:20,572 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,608 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/cpueater/0.0.1
+2021-03-05 07:09:20,609 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris_says_hello/0.0.1
+2021-03-05 07:09:20,610 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,662 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris_says_hello/0.0.1
+2021-03-05 07:09:20,663 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/memeater/0.0.1
+2021-03-05 07:09:20,663 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,713 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/memeater/0.0.1
+2021-03-05 07:09:20,714 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test00/0.0.1
+2021-03-05 07:09:20,739 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test00/0.0.1
+2021-03-05 07:09:20,740 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/crashing/0.0.1
+2021-03-05 07:09:20,744 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,780 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/crashing/0.0.1
+2021-03-05 07:09:20,781 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_world/0.0.1
+2021-03-05 07:09:20,803 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_world/0.0.1
+2021-03-05 07:09:20,804 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test05/0.0.1
+2021-03-05 07:09:20,823 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test05/0.0.1
+2021-03-05 07:09:20,824 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test04/0.0.1
+2021-03-05 07:09:20,847 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test04/0.0.1
+2021-03-05 07:09:20,848 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test06/0.0.1
+2021-03-05 07:09:20,863 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test06/0.0.1
+2021-03-05 07:09:20,865 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/resource_hello/0.0.1
+2021-03-05 07:09:20,867 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,913 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/resource_hello/0.0.1
+2021-03-05 07:09:20,914 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello/0.0.1
+2021-03-05 07:09:20,919 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:20,968 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello/0.0.1
+2021-03-05 07:09:20,969 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test01/0.0.1
+2021-03-05 07:09:20,987 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test01/0.0.1
+2021-03-05 07:09:20,988 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test07/0.0.1
+2021-03-05 07:09:21,003 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test07/0.0.1
+2021-03-05 07:09:21,004 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris/0.0.1
+2021-03-05 07:09:21,004 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:21,046 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris/0.0.1
+2021-03-05 07:09:21,046 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_message/0.0.1
+2021-03-05 07:09:21,047 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-05 07:09:21,078 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_message/0.0.1
+2021-03-05 07:09:21,080 INFO  [northstar::runtime::console] Connection to [::1]:33920 closed
+2021-03-05 07:09:21,080 INFO  [northstar::runtime::console] Connection to [::1]:57918 closed
+2021-03-05 07:09:21,080 INFO  [northstar::runtime::console] Connection to [::1]:57924 closed
+2021-03-05 07:09:21,080 INFO  [northstar::runtime::console] Connection to [::1]:57920 closed
+2021-03-05 07:09:21,081 INFO  [northstar::runtime::console] Connection to [::1]:57922 closed
+2021-03-05 07:09:21,081 INFO  [northstar::runtime::console] Connection to [::1]:57926 closed
+2021-03-05 07:09:21,081 INFO  [northstar::runtime::console] Connection to [::1]:57916 closed
