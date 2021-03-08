@@ -1,0 +1,491 @@
+2021-03-08 15:18:34,784 DEBUG [northstar::runtime] Creating target/northstar/data
+2021-03-08 15:18:34,784 DEBUG [northstar::runtime] Creating target/northstar/run
+2021-03-08 15:18:34,785 DEBUG [northstar::runtime] Creating target/northstar/logs
+2021-03-08 15:18:34,786 DEBUG [northstar::runtime::keys] Loading key examples/keys/northstar.pub
+2021-03-08 15:18:34,788 INFO  [northstar::runtime::state] Mounting NPKs from /tmp/.tmpQzwAVe
+2021-03-08 15:18:34,788 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmpQzwAVe/hello_world-0.0.1.npk
+2021-03-08 15:18:34,789 DEBUG [northstar::runtime::mount] Mounting NPK with size 8343
+2021-03-08 15:18:34,791 DEBUG [northstar::runtime::mount] Loaded manifest of hello_world:0.0.1
+2021-03-08 15:18:34,791 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_world/0.0.1
+2021-03-08 15:18:34,792 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop1")
+2021-03-08 15:18:34,794 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 4096
+2021-03-08 15:18:34,819 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.027s
+2021-03-08 15:18:34,820 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop1 to target/northstar/run/hello_world/0.0.1
+2021-03-08 15:18:34,824 DEBUG [northstar::runtime::mount] Mounting took 0.004s
+2021-03-08 15:18:34,824 INFO  [northstar::runtime::mount] Installed hello_world:0.0.1 Mounting: 0.036s
+2021-03-08 15:18:34,827 INFO  [northstar::runtime::state] Mounting NPKs from /tmp/.tmp4pvOiG
+2021-03-08 15:18:34,830 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test06-0.0.1.npk
+2021-03-08 15:18:34,830 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:34,833 DEBUG [northstar::runtime::mount] Loaded manifest of test06:0.0.1
+2021-03-08 15:18:34,833 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test06/0.0.1
+2021-03-08 15:18:34,834 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop2")
+2021-03-08 15:18:34,835 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:34,879 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.045s
+2021-03-08 15:18:34,880 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop2 to target/northstar/run/test06/0.0.1
+2021-03-08 15:18:34,882 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:34,882 INFO  [northstar::runtime::mount] Installed test06:0.0.1 Mounting: 0.052s
+2021-03-08 15:18:34,883 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test04-0.0.1.npk
+2021-03-08 15:18:34,883 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:34,886 DEBUG [northstar::runtime::mount] Loaded manifest of test04:0.0.1
+2021-03-08 15:18:34,886 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test04/0.0.1
+2021-03-08 15:18:34,887 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop3")
+2021-03-08 15:18:34,889 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:34,935 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.048s
+2021-03-08 15:18:34,936 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop3 to target/northstar/run/test04/0.0.1
+2021-03-08 15:18:34,940 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:34,940 INFO  [northstar::runtime::mount] Installed test04:0.0.1 Mounting: 0.057s
+2021-03-08 15:18:34,940 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test03-0.0.1.npk
+2021-03-08 15:18:34,940 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:34,943 DEBUG [northstar::runtime::mount] Loaded manifest of test03:0.0.1
+2021-03-08 15:18:34,943 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test03/0.0.1
+2021-03-08 15:18:34,944 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop4")
+2021-03-08 15:18:34,944 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:34,988 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.043s
+2021-03-08 15:18:34,988 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop4 to target/northstar/run/test03/0.0.1
+2021-03-08 15:18:34,992 DEBUG [northstar::runtime::mount] Mounting took 0.004s
+2021-03-08 15:18:34,993 INFO  [northstar::runtime::mount] Installed test03:0.0.1 Mounting: 0.053s
+2021-03-08 15:18:34,993 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test05-0.0.1.npk
+2021-03-08 15:18:34,994 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:34,997 DEBUG [northstar::runtime::mount] Loaded manifest of test05:0.0.1
+2021-03-08 15:18:34,997 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test05/0.0.1
+2021-03-08 15:18:35,000 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop5")
+2021-03-08 15:18:35,000 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:35,051 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.051s
+2021-03-08 15:18:35,052 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop5 to target/northstar/run/test05/0.0.1
+2021-03-08 15:18:35,054 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:35,054 INFO  [northstar::runtime::mount] Installed test05:0.0.1 Mounting: 0.061s
+2021-03-08 15:18:35,054 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test01-0.0.1.npk
+2021-03-08 15:18:35,055 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:35,057 DEBUG [northstar::runtime::mount] Loaded manifest of test01:0.0.1
+2021-03-08 15:18:35,057 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test01/0.0.1
+2021-03-08 15:18:35,063 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop6")
+2021-03-08 15:18:35,063 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:35,111 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.053s
+2021-03-08 15:18:35,112 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop6 to target/northstar/run/test01/0.0.1
+2021-03-08 15:18:35,117 DEBUG [northstar::runtime::mount] Mounting took 0.005s
+2021-03-08 15:18:35,117 INFO  [northstar::runtime::mount] Installed test01:0.0.1 Mounting: 0.063s
+2021-03-08 15:18:35,119 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test07-0.0.1.npk
+2021-03-08 15:18:35,122 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:35,124 DEBUG [northstar::runtime::mount] Loaded manifest of test07:0.0.1
+2021-03-08 15:18:35,124 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test07/0.0.1
+2021-03-08 15:18:35,125 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop7")
+2021-03-08 15:18:35,125 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:35,163 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-03-08 15:18:35,163 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop7 to target/northstar/run/test07/0.0.1
+2021-03-08 15:18:35,165 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:35,165 INFO  [northstar::runtime::mount] Installed test07:0.0.1 Mounting: 0.046s
+2021-03-08 15:18:35,166 DEBUG [northstar::runtime::mount] Mounting /tmp/.tmp4pvOiG/test00-0.0.1.npk
+2021-03-08 15:18:35,171 DEBUG [northstar::runtime::mount] Mounting NPK with size 3453139
+2021-03-08 15:18:35,173 DEBUG [northstar::runtime::mount] Loaded manifest of test00:0.0.1
+2021-03-08 15:18:35,173 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/test00/0.0.1
+2021-03-08 15:18:35,175 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop8")
+2021-03-08 15:18:35,175 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 3448832
+2021-03-08 15:18:35,219 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.045s
+2021-03-08 15:18:35,220 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/loop8 to target/northstar/run/test00/0.0.1
+2021-03-08 15:18:35,232 DEBUG [northstar::runtime::mount] Mounting took 0.012s
+2021-03-08 15:18:35,232 INFO  [northstar::runtime::mount] Installed test00:0.0.1 Mounting: 0.065s
+2021-03-08 15:18:35,237 INFO  [northstar::runtime::state] Mounting NPKs from target/northstar/repository
+2021-03-08 15:18:35,238 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/capabilities-0.0.1.npk
+2021-03-08 15:18:35,238 DEBUG [northstar::runtime::mount] Mounting NPK with size 393427
+2021-03-08 15:18:35,242 DEBUG [northstar::runtime::mount] Loaded manifest of capabilities:0.0.1
+2021-03-08 15:18:35,243 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/capabilities/0.0.1
+2021-03-08 15:18:35,243 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop9")
+2021-03-08 15:18:35,243 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 389120
+2021-03-08 15:18:35,280 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-08 15:18:35,280 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_capabilities_0.0.1)
+2021-03-08 15:18:35,284 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-5
+2021-03-08 15:18:35,285 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,286 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-5
+2021-03-08 15:18:35,286 DEBUG [northstar::runtime::mount] Verity setup took 0.006s
+2021-03-08 15:18:35,286 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-5 to target/northstar/run/capabilities/0.0.1
+2021-03-08 15:18:35,292 DEBUG [northstar::runtime::mount] Mounting took 0.005s
+2021-03-08 15:18:35,292 INFO  [northstar::runtime::mount] Installed capabilities:0.0.1 Mounting: 0.055s
+2021-03-08 15:18:35,300 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris-0.0.1.npk
+2021-03-08 15:18:35,300 DEBUG [northstar::runtime::mount] Mounting NPK with size 430291
+2021-03-08 15:18:35,306 DEBUG [northstar::runtime::mount] Loaded manifest of ferris:0.0.1
+2021-03-08 15:18:35,306 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris/0.0.1
+2021-03-08 15:18:35,307 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop10")
+2021-03-08 15:18:35,308 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 425984
+2021-03-08 15:18:35,359 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.052s
+2021-03-08 15:18:35,359 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_ferris_0.0.1)
+2021-03-08 15:18:35,361 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-6
+2021-03-08 15:18:35,363 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,363 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-6
+2021-03-08 15:18:35,363 DEBUG [northstar::runtime::mount] Verity setup took 0.004s
+2021-03-08 15:18:35,364 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-6 to target/northstar/run/ferris/0.0.1
+2021-03-08 15:18:35,367 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:35,367 INFO  [northstar::runtime::mount] Installed ferris:0.0.1 Mounting: 0.067s
+2021-03-08 15:18:35,371 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello_message-0.0.1.npk
+2021-03-08 15:18:35,371 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-03-08 15:18:35,376 DEBUG [northstar::runtime::mount] Loaded manifest of hello_message:0.0.1
+2021-03-08 15:18:35,376 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello_message/0.0.1
+2021-03-08 15:18:35,376 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop11")
+2021-03-08 15:18:35,376 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-03-08 15:18:35,427 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.051s
+2021-03-08 15:18:35,427 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_hello_message_0.0.1)
+2021-03-08 15:18:35,430 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-7
+2021-03-08 15:18:35,435 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,437 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-7
+2021-03-08 15:18:35,437 DEBUG [northstar::runtime::mount] Verity setup took 0.009s
+2021-03-08 15:18:35,437 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-7 to target/northstar/run/hello_message/0.0.1
+2021-03-08 15:18:35,444 DEBUG [northstar::runtime::mount] Mounting took 0.007s
+2021-03-08 15:18:35,445 INFO  [northstar::runtime::mount] Installed hello_message:0.0.1 Mounting: 0.074s
+2021-03-08 15:18:35,445 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/resource_hello-0.0.1.npk
+2021-03-08 15:18:35,445 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-03-08 15:18:35,486 DEBUG [northstar::runtime::mount] Loaded manifest of resource_hello:0.0.1
+2021-03-08 15:18:35,486 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/resource_hello/0.0.1
+2021-03-08 15:18:35,487 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop12")
+2021-03-08 15:18:35,487 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-03-08 15:18:35,523 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-08 15:18:35,523 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_resource_hello_0.0.1)
+2021-03-08 15:18:35,534 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-8
+2021-03-08 15:18:35,535 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,536 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-8
+2021-03-08 15:18:35,536 DEBUG [northstar::runtime::mount] Verity setup took 0.013s
+2021-03-08 15:18:35,536 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-8 to target/northstar/run/resource_hello/0.0.1
+2021-03-08 15:18:35,538 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:35,539 INFO  [northstar::runtime::mount] Installed resource_hello:0.0.1 Mounting: 0.094s
+2021-03-08 15:18:35,539 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/cpueater-0.0.1.npk
+2021-03-08 15:18:35,539 DEBUG [northstar::runtime::mount] Mounting NPK with size 442579
+2021-03-08 15:18:35,545 DEBUG [northstar::runtime::mount] Loaded manifest of cpueater:0.0.1
+2021-03-08 15:18:35,545 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/cpueater/0.0.1
+2021-03-08 15:18:35,546 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop13")
+2021-03-08 15:18:35,547 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 438272
+2021-03-08 15:18:35,583 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-08 15:18:35,583 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_cpueater_0.0.1)
+2021-03-08 15:18:35,584 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-9
+2021-03-08 15:18:35,586 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,587 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-9
+2021-03-08 15:18:35,587 DEBUG [northstar::runtime::mount] Verity setup took 0.003s
+2021-03-08 15:18:35,587 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-9 to target/northstar/run/cpueater/0.0.1
+2021-03-08 15:18:35,589 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:35,590 INFO  [northstar::runtime::mount] Installed cpueater:0.0.1 Mounting: 0.051s
+2021-03-08 15:18:35,590 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/crashing-0.0.1.npk
+2021-03-08 15:18:35,593 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-08 15:18:35,609 DEBUG [northstar::runtime::mount] Loaded manifest of crashing:0.0.1
+2021-03-08 15:18:35,609 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/crashing/0.0.1
+2021-03-08 15:18:35,610 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop14")
+2021-03-08 15:18:35,610 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-08 15:18:35,647 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.037s
+2021-03-08 15:18:35,648 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_crashing_0.0.1)
+2021-03-08 15:18:35,650 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-10
+2021-03-08 15:18:35,654 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,656 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-10
+2021-03-08 15:18:35,656 DEBUG [northstar::runtime::mount] Verity setup took 0.008s
+2021-03-08 15:18:35,656 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-10 to target/northstar/run/crashing/0.0.1
+2021-03-08 15:18:35,660 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:35,661 INFO  [northstar::runtime::mount] Installed crashing:0.0.1 Mounting: 0.071s
+2021-03-08 15:18:35,661 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/hello-0.0.1.npk
+2021-03-08 15:18:35,666 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-08 15:18:35,671 DEBUG [northstar::runtime::mount] Loaded manifest of hello:0.0.1
+2021-03-08 15:18:35,671 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/hello/0.0.1
+2021-03-08 15:18:35,671 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop15")
+2021-03-08 15:18:35,672 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-08 15:18:35,703 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.032s
+2021-03-08 15:18:35,703 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_hello_0.0.1)
+2021-03-08 15:18:35,706 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-11
+2021-03-08 15:18:35,707 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,708 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-11
+2021-03-08 15:18:35,708 DEBUG [northstar::runtime::mount] Verity setup took 0.005s
+2021-03-08 15:18:35,708 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-11 to target/northstar/run/hello/0.0.1
+2021-03-08 15:18:35,710 DEBUG [northstar::runtime::mount] Mounting took 0.002s
+2021-03-08 15:18:35,710 INFO  [northstar::runtime::mount] Installed hello:0.0.1 Mounting: 0.049s
+2021-03-08 15:18:35,711 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/ferris_says_hello-0.0.1.npk
+2021-03-08 15:18:35,711 DEBUG [northstar::runtime::mount] Mounting NPK with size 12499
+2021-03-08 15:18:35,715 DEBUG [northstar::runtime::mount] Loaded manifest of ferris_says_hello:0.0.1
+2021-03-08 15:18:35,715 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/ferris_says_hello/0.0.1
+2021-03-08 15:18:35,715 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop16")
+2021-03-08 15:18:35,716 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 8192
+2021-03-08 15:18:35,751 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.036s
+2021-03-08 15:18:35,751 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_ferris_says_hello_0.0.1)
+2021-03-08 15:18:35,753 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-12
+2021-03-08 15:18:35,761 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,762 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-12
+2021-03-08 15:18:35,762 DEBUG [northstar::runtime::mount] Verity setup took 0.010s
+2021-03-08 15:18:35,762 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-12 to target/northstar/run/ferris_says_hello/0.0.1
+2021-03-08 15:18:35,763 DEBUG [northstar::runtime::mount] Mounting took 0.001s
+2021-03-08 15:18:35,764 INFO  [northstar::runtime::mount] Installed ferris_says_hello:0.0.1 Mounting: 0.053s
+2021-03-08 15:18:35,764 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/seccomp-0.0.1.npk
+2021-03-08 15:18:35,765 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-08 15:18:35,772 DEBUG [northstar::runtime::mount] Loaded manifest of seccomp:0.0.1
+2021-03-08 15:18:35,772 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/seccomp/0.0.1
+2021-03-08 15:18:35,773 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop17")
+2021-03-08 15:18:35,773 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-08 15:18:35,811 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.038s
+2021-03-08 15:18:35,812 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_seccomp_0.0.1)
+2021-03-08 15:18:35,814 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-13
+2021-03-08 15:18:35,816 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,817 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-13
+2021-03-08 15:18:35,817 DEBUG [northstar::runtime::mount] Verity setup took 0.006s
+2021-03-08 15:18:35,818 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-13 to target/northstar/run/seccomp/0.0.1
+2021-03-08 15:18:35,820 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:35,821 INFO  [northstar::runtime::mount] Installed seccomp:0.0.1 Mounting: 0.057s
+2021-03-08 15:18:35,822 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/datarw-0.0.1.npk
+2021-03-08 15:18:35,822 DEBUG [northstar::runtime::mount] Mounting NPK with size 418003
+2021-03-08 15:18:35,836 DEBUG [northstar::runtime::mount] Loaded manifest of datarw:0.0.1
+2021-03-08 15:18:35,836 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/datarw/0.0.1
+2021-03-08 15:18:35,836 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop18")
+2021-03-08 15:18:35,836 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 413696
+2021-03-08 15:18:35,875 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.039s
+2021-03-08 15:18:35,875 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_datarw_0.0.1)
+2021-03-08 15:18:35,878 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-14
+2021-03-08 15:18:35,881 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,883 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-14
+2021-03-08 15:18:35,883 DEBUG [northstar::runtime::mount] Verity setup took 0.008s
+2021-03-08 15:18:35,883 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-14 to target/northstar/run/datarw/0.0.1
+2021-03-08 15:18:35,886 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:35,888 INFO  [northstar::runtime::mount] Installed datarw:0.0.1 Mounting: 0.067s
+2021-03-08 15:18:35,888 DEBUG [northstar::runtime::mount] Mounting target/northstar/repository/memeater-0.0.1.npk
+2021-03-08 15:18:35,888 DEBUG [northstar::runtime::mount] Mounting NPK with size 409811
+2021-03-08 15:18:35,898 DEBUG [northstar::runtime::mount] Loaded manifest of memeater:0.0.1
+2021-03-08 15:18:35,898 INFO  [northstar::runtime::mount] Creating mount point target/northstar/run/memeater/0.0.1
+2021-03-08 15:18:35,899 DEBUG [northstar::runtime::loopdev] Using loop device Some("/dev/loop19")
+2021-03-08 15:18:35,899 DEBUG [northstar::runtime::loopdev] Setting offset 4096 and limit 405504
+2021-03-08 15:18:35,931 DEBUG [northstar::runtime::loopdev] Loopback setup took 0.033s
+2021-03-08 15:18:35,931 DEBUG [northstar::runtime::mount] Creating a read-only verity device (name: north_80057_memeater_0.0.1)
+2021-03-08 15:18:35,934 DEBUG [northstar::runtime::mount] Verity-device used: /dev/dm-15
+2021-03-08 15:18:35,937 DEBUG [northstar::runtime::mount] Resuming device
+2021-03-08 15:18:35,939 DEBUG [northstar::runtime::mount] Waiting for device /dev/dm-15
+2021-03-08 15:18:35,939 DEBUG [northstar::runtime::mount] Verity setup took 0.007s
+2021-03-08 15:18:35,939 DEBUG [northstar::runtime::mount] Mount squashfs fs on /dev/dm-15 to target/northstar/run/memeater/0.0.1
+2021-03-08 15:18:35,942 DEBUG [northstar::runtime::mount] Mounting took 0.003s
+2021-03-08 15:18:35,943 INFO  [northstar::runtime::mount] Installed memeater:0.0.1 Mounting: 0.055s
+2021-03-08 15:18:35,944 INFO  [northstar::runtime] Mounted 19 containers
+2021-03-08 15:18:35,945 DEBUG [northstar::runtime::console] Starting console on [::1]:4200
+2021-03-08 15:18:35,947 DEBUG [northstar::runtime::console] Client "[::1]:55734" connected
+2021-03-08 15:18:35,947 DEBUG [northstar::runtime::console] Client "[::1]:55730" connected
+2021-03-08 15:18:35,947 DEBUG [northstar::runtime::console] Client "[::1]:55732" connected
+2021-03-08 15:18:35,947 INFO  [northstar::runtime::console] [::1]:55730: Connection closed
+2021-03-08 15:18:35,947 INFO  [northstar::runtime::console] Connection to [::1]:55730 closed
+2021-03-08 15:18:35,948 INFO  [northstar::runtime::state] Starting test00:0.0.1
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test00
+2021-03-08 15:18:35,948 DEBUG [northstar::runtime::console] Client "[::1]:55736" connected
+2021-03-08 15:18:35,949 DEBUG [northstar::runtime::console] Client "[::1]:55738" connected
+2021-03-08 15:18:35,949 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test00 to 1000:1000
+2021-03-08 15:18:35,949 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test00 on /data
+2021-03-08 15:18:35,949 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,949 DEBUG [northstar::runtime::console] Client "[::1]:55740" connected
+2021-03-08 15:18:35,950 DEBUG [northstar::runtime::console] Client "[::1]:55744" connected
+2021-03-08 15:18:35,950 DEBUG [northstar::runtime::console] Client "[::1]:55742" connected
+2021-03-08 15:18:35,950 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,951 INFO  [northstar::runtime::state] Started test00:0.0.1
+2021-03-08 15:18:35,951 INFO  [northstar::runtime::state] Starting test01:0.0.1
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test01
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test01 to 1000:1000
+2021-03-08 15:18:35,951 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test01 on /data
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,952 INFO  [northstar::runtime::state] Started test01:0.0.1
+2021-03-08 15:18:35,952 INFO  [northstar::runtime::state] Starting test03:0.0.1
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,952 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,953 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test03
+2021-03-08 15:18:35,954 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test03 to 1000:1000
+2021-03-08 15:18:35,954 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test03 on /data
+2021-03-08 15:18:35,954 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,954 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,955 INFO  [northstar::runtime::state] Started test03:0.0.1
+2021-03-08 15:18:35,955 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,955 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test05
+2021-03-08 15:18:35,956 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-08 15:18:35,956 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-08 15:18:35,956 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,956 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,957 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-08 15:18:35,957 INFO  [northstar::runtime::state] Starting test04:0.0.1
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,957 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test04
+2021-03-08 15:18:35,961 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test04 to 1000:1000
+2021-03-08 15:18:35,961 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test04 on /data
+2021-03-08 15:18:35,961 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,962 INFO  [northstar::runtime::state] Started test04:0.0.1
+2021-03-08 15:18:35,962 INFO  [northstar::runtime::state] Starting test06:0.0.1
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,962 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test06
+2021-03-08 15:18:35,964 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test06 to 1000:1000
+2021-03-08 15:18:35,964 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test06 on /data
+2021-03-08 15:18:35,964 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,964 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,965 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,965 INFO  [northstar::runtime::state] Started test06:0.0.1
+2021-03-08 15:18:35,965 INFO  [northstar::runtime::state] Stopping test01:0.0.1
+2021-03-08 15:18:35,968 DEBUG [northstar::runtime::process] Process 81051 exit code is 0
+2021-03-08 15:18:35,968 INFO  [northstar::runtime::state] Stopped test01:0.0.1 Exit(0)
+2021-03-08 15:18:35,971 INFO  [northstar::runtime::state] Starting test07:0.0.1
+2021-03-08 15:18:35,971 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:18:35,971 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:18:35,971 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:18:35,971 DEBUG [northstar::runtime::minijail] Creating target/northstar/data/test07
+2021-03-08 15:18:35,972 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test07 to 1000:1000
+2021-03-08 15:18:35,972 INFO  [northstar::runtime::console] [::1]:55734: Connection closed
+2021-03-08 15:18:35,972 INFO  [northstar::runtime::console] Connection to [::1]:55734 closed
+2021-03-08 15:18:35,972 DEBUG [northstar::runtime::console] Client "[::1]:55746" connected
+2021-03-08 15:18:35,972 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test07 on /data
+2021-03-08 15:18:35,972 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:18:35,972 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:18:35,973 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:18:35,973 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:18:35,973 INFO  [northstar::runtime::state] Started test07:0.0.1
+2021-03-08 15:18:35,973 INFO  [northstar::runtime::state] Stopping test00:0.0.1
+2021-03-08 15:18:35,977 DEBUG [northstar::runtime::process] Process 81047 exit code is 0
+2021-03-08 15:18:35,977 INFO  [northstar::runtime::state] Stopped test00:0.0.1 Exit(0)
+2021-03-08 15:18:35,977 INFO  [northstar::runtime::state] Stopping test03:0.0.1
+2021-03-08 15:18:35,978 WARN  [northstar::runtime::console] [::1]:55732: Connection error: Connection reset by peer (os error 104)
+2021-03-08 15:18:35,978 INFO  [northstar::runtime::console] Connection to [::1]:55732 closed
+2021-03-08 15:18:35,978 DEBUG [northstar::runtime::console] Client "[::1]:55748" connected
+2021-03-08 15:18:35,981 DEBUG [northstar::runtime::process] Process 81055 exit code is 0
+2021-03-08 15:18:35,982 INFO  [northstar::runtime::state] Stopped test03:0.0.1 Exit(0)
+2021-03-08 15:18:35,982 INFO  [northstar::runtime::state] Stopping test05:0.0.1
+2021-03-08 15:18:35,983 INFO  [northstar::runtime::console] [::1]:55736: Connection closed
+2021-03-08 15:18:35,983 DEBUG [northstar::runtime::console] Client "[::1]:55750" connected
+2021-03-08 15:18:35,983 INFO  [northstar::runtime::console] Connection to [::1]:55736 closed
+2021-03-08 15:18:35,983 DEBUG [northstar::runtime::process] Process 81060 exit code is 0
+2021-03-08 15:18:35,983 INFO  [northstar::runtime::state] Stopped test05:0.0.1 Exit(0)
+2021-03-08 15:18:35,983 INFO  [northstar::runtime::state] Stopping test04:0.0.1
+2021-03-08 15:18:35,984 DEBUG [northstar::runtime::console] Client "[::1]:55752" connected
+2021-03-08 15:18:35,985 INFO  [northstar::runtime::console] [::1]:55740: Connection closed
+2021-03-08 15:18:35,985 INFO  [northstar::runtime::console] Connection to [::1]:55740 closed
+2021-03-08 15:18:35,987 DEBUG [northstar::runtime::process] Process 81064 exit code is 0
+2021-03-08 15:18:35,988 INFO  [northstar::runtime::state] Stopped test04:0.0.1 Exit(0)
+2021-03-08 15:18:35,988 INFO  [northstar::runtime::state] Stopping test06:0.0.1
+2021-03-08 15:18:35,988 DEBUG [northstar::runtime::console] Client "[::1]:55754" connected
+2021-03-08 15:18:35,989 INFO  [northstar::runtime::console] [::1]:55738: Connection closed
+2021-03-08 15:18:35,989 INFO  [northstar::runtime::console] Connection to [::1]:55738 closed
+2021-03-08 15:18:35,990 DEBUG [northstar::runtime::process] Process 81066 exit code is 0
+2021-03-08 15:18:35,990 INFO  [northstar::runtime::state] Stopped test06:0.0.1 Exit(0)
+2021-03-08 15:18:35,990 INFO  [northstar::runtime::state] Stopping test07:0.0.1
+2021-03-08 15:18:35,991 INFO  [northstar::runtime::console] [::1]:55742: Connection closed
+2021-03-08 15:18:35,991 INFO  [northstar::runtime::console] Connection to [::1]:55742 closed
+2021-03-08 15:18:35,991 DEBUG [northstar::runtime::process] Process 81069 exit code is 0
+2021-03-08 15:18:35,991 DEBUG [northstar::runtime::console] Client "[::1]:55756" connected
+2021-03-08 15:18:35,991 INFO  [northstar::runtime::state] Stopped test07:0.0.1 Exit(0)
+2021-03-08 15:18:35,992 WARN  [northstar::runtime::console] [::1]:55744: Connection error: Broken pipe (os error 32)
+2021-03-08 15:18:35,992 INFO  [northstar::runtime::console] Connection to [::1]:55744 closed
+2021-03-08 15:18:35,993 DEBUG [northstar::runtime::console] Client "[::1]:55758" connected
+2021-03-08 15:19:05,951 INFO  [northstar::runtime::state] Starting test05:0.0.1
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test05 to 1000:1000
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test05 on /data
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:19:05,951 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:19:05,952 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:19:05,952 INFO  [northstar::runtime::state] Started test05:0.0.1
+2021-03-08 15:19:05,953 INFO  [northstar::runtime::state] Starting test07:0.0.1
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test07 to 1000:1000
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test07 on /data
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:19:05,953 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:19:05,954 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:19:05,954 INFO  [northstar::runtime::state] Started test07:0.0.1
+2021-03-08 15:19:05,966 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-08 15:19:05,968 DEBUG [northstar::runtime::process] Process 81113 exit code is 1
+2021-03-08 15:19:05,968 INFO  [northstar::runtime::state] Process test05:0.0.1 exited after 15.443512ms and status Exit(1)
+2021-03-08 15:19:05,968 INFO  [northstar::runtime::state] Destroying context
+2021-03-08 15:19:05,973 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-08 15:19:05,974 DEBUG [northstar::runtime::process] Process 81116 exit code is 1
+2021-03-08 15:19:05,974 INFO  [northstar::runtime::state] Process test07:0.0.1 exited after 19.666241ms and status Exit(1)
+2021-03-08 15:19:05,974 INFO  [northstar::runtime::state] Destroying context
+2021-03-08 15:19:35,952 INFO  [northstar::runtime::state] Starting test06:0.0.1
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Setting UID to 1000
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Setting GID to 1000
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Mounting minimal /dev
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Mounting /lib64 on /lib64
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Chowning target/northstar/data/test06 to 1000:1000
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Mounting target/northstar/data/test06 on /data
+2021-03-08 15:19:35,952 DEBUG [northstar::runtime::minijail] Mounting /lib on /lib
+2021-03-08 15:19:35,953 DEBUG [northstar::runtime::minijail] Preparing "/test_container /input.txt"
+2021-03-08 15:19:35,954 DEBUG [northstar::runtime::minijail] Starting "/test_container /input.txt"
+2021-03-08 15:19:35,954 INFO  [northstar::runtime::state] Started test06:0.0.1
+2021-03-08 15:19:35,967 DEBUG [northstar::runtime::minijail] test_container: Executing script /input.txt
+2021-03-08 15:19:35,968 DEBUG [northstar::runtime::process] Process 81169 exit code is 1
+2021-03-08 15:19:35,968 INFO  [northstar::runtime::state] Process test06:0.0.1 exited after 14.236329ms and status Exit(1)
+2021-03-08 15:19:35,969 INFO  [northstar::runtime::state] Destroying context
+2021-03-08 15:23:34,787 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_world/0.0.1
+2021-03-08 15:23:34,819 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_world/0.0.1
+2021-03-08 15:23:34,820 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/seccomp/0.0.1
+2021-03-08 15:23:34,821 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:34,862 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/seccomp/0.0.1
+2021-03-08 15:23:34,862 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/capabilities/0.0.1
+2021-03-08 15:23:34,863 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:34,909 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/capabilities/0.0.1
+2021-03-08 15:23:34,910 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/datarw/0.0.1
+2021-03-08 15:23:34,911 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:34,952 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/datarw/0.0.1
+2021-03-08 15:23:34,953 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello/0.0.1
+2021-03-08 15:23:34,953 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:34,994 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello/0.0.1
+2021-03-08 15:23:34,994 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test01/0.0.1
+2021-03-08 15:23:35,011 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test01/0.0.1
+2021-03-08 15:23:35,012 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/memeater/0.0.1
+2021-03-08 15:23:35,012 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,057 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/memeater/0.0.1
+2021-03-08 15:23:35,058 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/crashing/0.0.1
+2021-03-08 15:23:35,058 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,110 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/crashing/0.0.1
+2021-03-08 15:23:35,110 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris_says_hello/0.0.1
+2021-03-08 15:23:35,111 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,156 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris_says_hello/0.0.1
+2021-03-08 15:23:35,157 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test04/0.0.1
+2021-03-08 15:23:35,179 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test04/0.0.1
+2021-03-08 15:23:35,180 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/resource_hello/0.0.1
+2021-03-08 15:23:35,180 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,233 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/resource_hello/0.0.1
+2021-03-08 15:23:35,233 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test07/0.0.1
+2021-03-08 15:23:35,255 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test07/0.0.1
+2021-03-08 15:23:35,256 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test05/0.0.1
+2021-03-08 15:23:35,284 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test05/0.0.1
+2021-03-08 15:23:35,284 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/cpueater/0.0.1
+2021-03-08 15:23:35,285 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,324 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/cpueater/0.0.1
+2021-03-08 15:23:35,324 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test06/0.0.1
+2021-03-08 15:23:35,343 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test06/0.0.1
+2021-03-08 15:23:35,344 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test00/0.0.1
+2021-03-08 15:23:35,359 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test00/0.0.1
+2021-03-08 15:23:35,360 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/test03/0.0.1
+2021-03-08 15:23:35,379 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/test03/0.0.1
+2021-03-08 15:23:35,380 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/ferris/0.0.1
+2021-03-08 15:23:35,380 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,425 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/ferris/0.0.1
+2021-03-08 15:23:35,426 INFO  [northstar::runtime::mount] Unmounting target/northstar/run/hello_message/0.0.1
+2021-03-08 15:23:35,426 DEBUG [northstar::runtime::mount] Waiting for dm device removal
+2021-03-08 15:23:35,473 DEBUG [northstar::runtime::mount] Removing mountpoint target/northstar/run/hello_message/0.0.1
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55746 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55752 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55748 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55750 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55756 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55758 closed
+2021-03-08 15:23:35,476 INFO  [northstar::runtime::console] Connection to [::1]:55754 closed
